@@ -1,0 +1,131 @@
+.slide-container {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../public/images/hero.jpg);
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  .slide-button {
+    background: rgba(0, 0, 0, 0.8);
+    span {
+      min-width: 16px;
+      min-height: 16px;
+      max-width: 16px;
+      max-height: 16px;
+      background: #ffffff78;
+      border-radius: 100%;
+    }
+    span.active {
+      background: #fff;
+    }
+  }
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../public/images/GTP_About-Us_1.jpg);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+  
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  h1 {
+    display: flex;
+    flex-direction: column;
+    // font-family: "poppins-semibold";
+    font-size: 60px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    color: #000000;
+    line-height: 1;
+    max-width: 40%;
+  }
+  p {
+    // font-family: "poppins-regular";
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+    color: #000000;
+  }
+}
+
+.controls {
+  margin-top: 1rem;
+  display: flex;
+  //   flex-direction: column;
+  gap: 4px;
+  button {
+    background: #00bcd4;
+    color: #fff;
+    padding: 6px 8px;
+  }
+}
+
+.middle-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  min-height: 80vh;
+  .card-container {
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    // width: 50%;
+    // height: 80%;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image {
+    right: 0;
+    top: 0;
+    position: absolute;
+    // width: 60%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../public/images/towers.jpg);
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card {
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      font-style: normal;
+      text-align: left;
+      color: #f3762e;
+      // max-width: 60%;
+      font-weight: 600;
+    }
+    p {
+      // max-width: 60%;
+      font-size: 1rem;
+    }
+  }
+}
+
+.bottom-container {
+  background-image: url(../public/images/concern.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  p {
+    max-width: 70%;
+  }
+}
