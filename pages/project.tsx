@@ -72,7 +72,7 @@ const AboutUs = () => {
   </div>
   <div className="w-1/4 flex-auto px-4">
     <div className="w-full"> 
-   <Image height={200} width={200}
+   <Image height={200} width={300}
   src="/images/GTP_Project_6.jpg"
   
   alt="..." />
@@ -82,7 +82,7 @@ const AboutUs = () => {
   </div>
   <div className="w-1/4 flex-auto px-4">
     <div className="w-full">
-   <Image height={200} width={200}
+   <Image height={200} width={300}
   src="/images/GTP_Project_7.jpg"
   
   alt="..." />
@@ -92,7 +92,7 @@ const AboutUs = () => {
   </div>
   <div className="w-1/4 flex-auto px-4">
   <div className="w-full">
-   <Image height={200} width={200}
+   <Image height={200} width={300}
   src="/images/GTP_Project_8.jpg"
   
   alt="..." />
