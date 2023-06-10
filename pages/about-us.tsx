@@ -26,7 +26,7 @@ const AboutUs = () => {
   <div className="w-4/5 flex-auto pl-20 border-l-2">
     <div className="w-full">
       <p className="text-sm font-medium leading-loose">Since its inception, Global Tech Park (GTP) has consistently proven to be a venture of bold 
-      ambition and success. Led by Chairman Satish P Chandra, GTP has grown from developing Bangalore's iconic&#36;the Dome&#36; into a holding company across the globe with widespread investments in software engineering, healthcare technology and renewable solar energy operations.
+      ambition and success. Led by Chairman Satish P Chandra, GTP has grown from developing Bangalore&#39;s iconic&#36;the Dome&#36; into a holding company across the globe with widespread investments in software engineering, healthcare technology and renewable solar energy operations.
 
 </p><p className="text-sm font-medium leading-loose pt-2">We are known for taking risks whilst creating an encouraging environment for professionals alike. Today we operate in multiple countries including UK/USA/Switzerland/Netherlands/Singapore among others; driving 
 impactful progress wherever an opportunity arises.</p></div>
