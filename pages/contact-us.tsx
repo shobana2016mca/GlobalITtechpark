@@ -13,7 +13,7 @@ const ContactUs = () => {
     <h2 className="text-4xl font-semibold">LET’S CONNECT</h2><h2 className="text-4xl font-semibold">TO BUILD FOR FUTURE</h2>
     <p> Reach Out for Any Queries</p>
   </div>
-  <div className="absolute bottom-[-32px]"><Image
+  <div className="absolute bottom-[-32px]"> <Image width={200}   height={200}
   src="..\images\Icon.png"
   className="w-16"
   alt="..." />

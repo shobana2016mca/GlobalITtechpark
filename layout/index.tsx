@@ -18,8 +18,8 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
         <div>
           <Image src="/h-logo.webp"
             width={200}
-            alt="logo"
             height={200}
+            alt="logo"
             className="md:w-[200px] w-[100px] "
           />
         </div>
