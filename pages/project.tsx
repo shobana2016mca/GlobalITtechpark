@@ -2,6 +2,7 @@ import React from "react";
 import 'swiper/css';
 import styles from "@/styles/home.module.scss";
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Image from "next/image";
 
 
 const AboutUs = () => {
@@ -13,7 +14,7 @@ const AboutUs = () => {
     <h2 className="text-4xl font-semibold">THINK</h2><h2 className="text-4xl font-semibold">CAMPUS</h2>
     <p> Since 2000 | India-Bangalore headquarter</p>
   </div>
-  <div className="absolute bottom-[-32px]"><img
+  <div className="absolute bottom-[-32px]"><Image
   src="..\images\Icon.png"
   className="w-16"
   alt="..." />
@@ -35,20 +36,20 @@ const AboutUs = () => {
       <p className="text-xl font-medium leading-loose">INDIA</p></div>
   </div>
 </div>
-<div className="w-full pt-10 pb-20"><img
+<div className="w-full pt-10 pb-20"><Image
   src="..\images\GTP_Project_2.jpg"
   className="w-full"
   alt="..." />
 </div>
 <div className="flex flex-wrap">
   <div className="w-3/6 flex-auto pr-4">
-  <img
+  <Image
   src="..\images\GTP_Project_3.jpg"
   className="w-full"
   alt="..." />
   </div>
   <div className="w-3/6 flex-auto pl-4">
-  <img
+  <Image
   src="..\images\GTP_Project_4.jpg"
   className="w-full"
   alt="..." />
@@ -59,7 +60,7 @@ const AboutUs = () => {
   <h2 className="text-2xl text-center font-bold primary-color">2 Million Square foot</h2>
   <p className="w-1/2 mx-auto text-center font-normal">Since 1995, GTP has been building some of the most recognized buildings in South India. Our signature DOME, has been copied by many - which we think 
   is the best compliment - over the last 2 decades.</p>
-  <img
+  <Image
   src="..\images\GTP_Project_5.jpg"
   className="w-full pt-10"
   alt="..." />
@@ -72,7 +73,7 @@ const AboutUs = () => {
   </div>
   <div className="w-1/4 flex-auto px-4">
     <div className="w-full"> 
-   <img
+   <Image
   src="..\images\GTP_Project_6.jpg"
   
   alt="..." />
@@ -82,7 +83,7 @@ const AboutUs = () => {
   </div>
   <div className="w-1/4 flex-auto px-4">
     <div className="w-full">
-   <img
+   <Image
   src="..\images\GTP_Project_7.jpg"
   
   alt="..." />
@@ -92,7 +93,7 @@ const AboutUs = () => {
   </div>
   <div className="w-1/4 flex-auto px-4">
   <div className="w-full">
-   <img
+   <Image
   src="..\images\GTP_Project_8.jpg"
   
   alt="..." />

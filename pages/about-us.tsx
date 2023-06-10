@@ -2,6 +2,7 @@ import React from "react";
 import 'swiper/css';
 import styles from "@/styles/home.module.scss";
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Image from "next/image";
 
 
 const AboutUs = () => {
@@ -46,10 +47,8 @@ impactful progress wherever an opportunity arises.</p></div>
     <div className="w-full"> </div>
   </div>
   <div className="w-[30%] flex-auto pr-4">
-    <div className="w-full"><h1 className="mb-3 text-lg font-semibold">Sathish Chandra</h1><img
-  src="..\images\Sathish-P-Chandra.jpg"
-  
-  alt="..." />
+    <div className="w-full"><h1 className="mb-3 text-lg font-semibold">Sathish Chandra</h1><Image
+  src="..\images\Sathish-P-Chandra.jpg" alt="..." />
 
       </div>
   </div>
