@@ -4,6 +4,7 @@ import MenuIcon from "@/components/icons/menu";
 import Link from "next/link";
 import { Poppins } from "next/font/google";
 import Navigation from "./navigation";
+import Image from "next/image";
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],

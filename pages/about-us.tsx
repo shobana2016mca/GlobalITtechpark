@@ -2,7 +2,7 @@ import React from "react";
 import 'swiper/css';
 import styles from "@/styles/home.module.scss";
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import Image from "next/image";
 
 const AboutUs = () => {
   return (
@@ -13,7 +13,7 @@ const AboutUs = () => {
     <h2 className="text-4xl font-semibold">CORPORATE</h2><h2 className="text-4xl font-semibold">PROFILE</h2>
     <p> Since 2000 | India-Bangalore headquarter</p>
   </div>
-  <div className="absolute bottom-[-32px]"><img
+  <div className="absolute bottom-[-32px]"><Image
   src="..\images\Icon.png"
   className="w-16"
   alt="..." />
@@ -46,7 +46,7 @@ impactful progress wherever an opportunity arises.</p></div>
     <div className="w-full"> </div>
   </div>
   <div className="w-[30%] flex-auto pr-4">
-    <div className="w-full"><h1 className="mb-3 text-lg font-semibold">Sathish Chandra</h1><img
+    <div className="w-full"><h1 className="mb-3 text-lg font-semibold">Sathish Chandra</h1><Image
   src="..\images\Sathish-P-Chandra.jpg"
   
   alt="..." />
@@ -60,7 +60,7 @@ His vision has opened up doors to numerous sectors such as healthcare, software 
       </div>
   </div>
 </div>
-<div className="w-full pt-20 pb-20"><img
+<div className="w-full pt-20 pb-20"><Image
   src="..\images\GTP_About-Us_2.jpg"
   className="w-full"
   alt="..." />
@@ -71,7 +71,7 @@ His vision has opened up doors to numerous sectors such as healthcare, software 
   </div>
   <div className="w-[30%] flex-auto pr-4">
     <div className="w-full"><h1 className="mb-3 text-lg font-semibold">Chetan Chandra</h1>
-    <img
+    <Image
   src="..\images\Chetan-Chandra.jpg"
   
   alt="..." />
@@ -91,7 +91,7 @@ His vision has opened up doors to numerous sectors such as healthcare, software 
   </div>
   <div className="w-[30%] flex-auto pr-4">
     <div className="w-full"><h1 className="mb-3 text-lg font-semibold">Bindu Chandra</h1> 
-   <img
+   <Image
   src="..\images\Bindu-Chandra.jpg"
   
   alt="..." />

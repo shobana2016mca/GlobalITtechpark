@@ -2,7 +2,7 @@ import React from "react";
 import 'swiper/css';
 import styles from "@/styles/home.module.scss";
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import Image from "next/image";
 
 const Csr = () => {
   return (
@@ -13,7 +13,7 @@ const Csr = () => {
     <h2 className="text-4xl font-semibold">CORPORATE</h2><h2 className="text-4xl font-semibold">SOCIAL RESPONSIBILITY</h2>
     <p> Making Positive Impact in the Society</p>
   </div>
-  <div className="absolute bottom-[-32px]"><img
+  <div className="absolute bottom-[-32px]"><Image
   src="..\images\Icon.png"
   className="w-16"
   alt="..." />
@@ -43,7 +43,7 @@ We are known for taking risks whilst creating an encouraging environment for pro
 <div className="flex flex-wrap px-20 pt-20">
   
   <div className="w-2/4 flex-auto pr-4">
-    <div className="w-full"><img
+    <div className="w-full"><Image
   src="..\images\csr.png"
   
   alt="..." />
@@ -57,7 +57,7 @@ His vision has opened up doors to numerous sectors such as healthcare, software 
       </div>
   </div>
 </div>
-<div className="w-full pt-20 pb-20"><img
+<div className="w-full pt-20 pb-20"><Image
   src="..\images\GTP_About-Us_2.jpg"
   className="w-full"
   alt="..." />
@@ -66,7 +66,7 @@ His vision has opened up doors to numerous sectors such as healthcare, software 
  
   <div className="w-2/5 flex-auto pr-4">
     <div className="w-full">
-    <img
+    <Image
   src="..\images\csr.png"
   
   alt="..." />
@@ -89,7 +89,7 @@ His vision has opened up doors to numerous sectors such as healthcare, software 
   </div>
   <div className="w-2/5 flex-auto pr-4 pl-10">
     <div className="w-full">
-    <img
+    <Image
   src="..\images\csr.png"
   
   alt="..." />

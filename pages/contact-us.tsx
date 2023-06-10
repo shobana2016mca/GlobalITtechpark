@@ -2,7 +2,7 @@ import React from "react";
 import 'swiper/css';
 import styles from "@/styles/home.module.scss";
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import Image from "next/image";
 
 const ContactUs = () => {
   return (
@@ -13,7 +13,7 @@ const ContactUs = () => {
     <h2 className="text-4xl font-semibold">LET’S CONNECT</h2><h2 className="text-4xl font-semibold">TO BUILD FOR FUTURE</h2>
     <p> Reach Out for Any Queries</p>
   </div>
-  <div className="absolute bottom-[-32px]"><img
+  <div className="absolute bottom-[-32px]"><Image
   src="..\images\Icon.png"
   className="w-16"
   alt="..." />

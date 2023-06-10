@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import css from "@/styles/navigation.module.scss";
 import CloseIcon from "@/components/icons/close";
+import Image from "next/image";
 
 interface NavigationProps {
   show?: boolean;
