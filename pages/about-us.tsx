@@ -54,7 +54,7 @@ impactful progress wherever an opportunity arises.</p></div>
       </div>
   </div>
   <div className="w-6/12 flex-auto pl-10 pt-5">
-    <div className="w-full"><p className=" text-sm font-medium leading-loose mt-3">Satish P Chandra is the inspirational Chairman and Managing Director of Global Tech Park, a rapidly expanding provider of infrastructure solutions in India. He was instrumental in creating Bengaluru's iconic commercial site Think Campus in Electronic City - fondly known as "the Dome".
+    <div className="w-full"><p className=" text-sm font-medium leading-loose mt-3">Satish P Chandra is the inspirational Chairman and Managing Director of Global Tech Park, a rapidly expanding provider of infrastructure solutions in India. He was instrumental in creating Bengaluru &#39; s iconic commercial site Think Campus in Electronic City - fondly known as &#39;the Dome&#39;.
 
 His vision has opened up doors to numerous sectors such as healthcare, software technology, solar power and logistic services, earning him prestigious awards like Businessman of the Year from BSICC & Golden Peacock Eco-Innovative Award by GIIS Balestier. Moreover, his commitment towards Corporate Social Responsibility (CSR) sets him apart from others.</p>
       </div>
@@ -79,7 +79,7 @@ His vision has opened up doors to numerous sectors such as healthcare, software 
       </div>
   </div>
   <div className="md:w-6/12 flex-auto pl-10 pt-5 md:pl-10">
-    <div className="w-full"><p className=" text-sm font-medium leading-loose mt-3">Satish P Chandra is the inspirational Chairman and Managing Director of Global Tech Park, a rapidly expanding provider of infrastructure solutions in India. He was instrumental in creating Bengaluru's iconic commercial site Think Campus in Electronic City - fondly known as "the Dome".
+    <div className="w-full"><p className=" text-sm font-medium leading-loose mt-3">Satish P Chandra is the inspirational Chairman and Managing Director of Global Tech Park, a rapidly expanding provider of infrastructure solutions in India. He was instrumental in creating Bengaluru&#39; s iconic commercial site Think Campus in Electronic City - fondly known as &#39;the Dome&#39;.
 
 His vision has opened up doors to numerous sectors such as healthcare, software technology, solar power and logistic services, earning him prestigious awards like Businessman of the Year from BSICC & Golden Peacock Eco-Innovative Award by GIIS Balestier. Moreover, his commitment towards Corporate Social Responsibility (CSR) sets him apart from others.</p>
       </div>
@@ -99,7 +99,7 @@ His vision has opened up doors to numerous sectors such as healthcare, software 
       </div>
   </div>
   <div className="w-6/12 flex-auto pl-10 pt-5">
-    <div className="w-full"><p className=" text-sm font-medium leading-loose mt-3">Satish P Chandra is the inspirational Chairman and Managing Director of Global Tech Park, a rapidly expanding provider of infrastructure solutions in India. He was instrumental in creating Bengaluru's iconic commercial site Think Campus in Electronic City - fondly known as "the Dome".
+    <div className="w-full"><p className=" text-sm font-medium leading-loose mt-3">Satish P Chandra is the inspirational Chairman and Managing Director of Global Tech Park, a rapidly expanding provider of infrastructure solutions in India. He was instrumental in creating Bengaluru&#39; s iconic commercial site Think Campus in Electronic City - fondly known as &#39;the Dome&#39;.
 
 His vision has opened up doors to numerous sectors such as healthcare, software technology, solar power and logistic services, earning him prestigious awards like Businessman of the Year from BSICC & Golden Peacock Eco-Innovative Award by GIIS Balestier. Moreover, his commitment towards Corporate Social Responsibility (CSR) sets him apart from others.</p>
       </div>
