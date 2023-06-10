@@ -14,7 +14,7 @@ const AboutUs = () => {
     <p> Since 2000 | India-Bangalore headquarter</p>
   </div>
   <div className="absolute bottom-[-32px]"><Image
-  src="..\images\Icon.png"
+  src="/images/Icon.png"
   className="w-16"
   alt="..." />
 </div>
@@ -47,7 +47,7 @@ impactful progress wherever an opportunity arises.</p></div>
   </div>
   <div className="w-[30%] flex-auto pr-4">
     <div className="w-full"><h1 className="mb-3 text-lg font-semibold">Sathish Chandra</h1><Image
-  src="..\images\Sathish-P-Chandra.jpg"
+  src="/images/Sathish-P-Chandra.jpg"
   
   alt="..." />
 
@@ -61,7 +61,7 @@ His vision has opened up doors to numerous sectors such as healthcare, software 
   </div>
 </div>
 <div className="w-full pt-20 pb-20"><Image
-  src="..\images\GTP_About-Us_2.jpg"
+  src="/images/GTP_About-Us_2.jpg"
   className="w-full"
   alt="..." />
 </div>
@@ -72,7 +72,7 @@ His vision has opened up doors to numerous sectors such as healthcare, software 
   <div className="w-[30%] flex-auto pr-4">
     <div className="w-full"><h1 className="mb-3 text-lg font-semibold">Chetan Chandra</h1>
     <Image
-  src="..\images\Chetan-Chandra.jpg"
+  src="/images/Chetan-Chandra.jpg"
   
   alt="..." />
 
@@ -92,7 +92,7 @@ His vision has opened up doors to numerous sectors such as healthcare, software 
   <div className="w-[30%] flex-auto pr-4">
     <div className="w-full"><h1 className="mb-3 text-lg font-semibold">Bindu Chandra</h1> 
    <Image
-  src="..\images\Bindu-Chandra.jpg"
+  src="/images/Bindu-Chandra.jpg"
   
   alt="..." />
 
