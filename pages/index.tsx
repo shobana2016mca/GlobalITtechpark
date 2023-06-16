@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 // import { Pagination } from "swiper";
 import { Autoplay, Pagination } from "swiper";
 import styles from "@/styles/home.module.scss";
-
+import Image from "next/image";
 import React from "react";
 
 export default function Home() {

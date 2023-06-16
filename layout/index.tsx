@@ -16,11 +16,16 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
     <React.Fragment>
       <header className="relative flex items-center justify-between py-2 px-7 md:py-4 md:px-14">
         <div>
+<<<<<<< HEAD
           <Image
             src="/h-logo.webp"
+=======
+          <Image src="/h-logo.webp"
+>>>>>>> 7d5c6f0392a4b7f616b8ade0ed6d2da9dcc9e33d
             width={200}
+            height={200}
             alt="logo"
-            className="md:w-[200px] w-[100px]"
+            className="md:w-[200px] w-[100px] "
           />
         </div>
         <div className="flex flex-col">
@@ -48,7 +53,7 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
       <footer className="footer-wrap px-14 pt-14">
         <div className="px-10 footer-inner py-14">
           <div className="footer-logo">
-            <img src="/g-logo.webp" width={200} alt="logo" />
+            <Image src="/g-logo.webp" width={200} height={200} alt="logo" />
           </div>
           <div className="flex flex-wrap footer-dtl">
             <div className="w-full md:h-96 md:w-1/4">
@@ -82,13 +87,13 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
             <div className="w-full pt-10 text-white md:h-96 md:w-1/4">
               FOLLOW US
               <div className="flex">
-              <a href="#" className="fa fa-facebook"><img
-  src="..\images\fb.png"
-  className="pt-2 w-8"
+              <a href="#" className="fa fa-facebook"><Image
+  src="/images/fb.png"
+  className="pt-2 w-8" height={200} width={200}
   alt="..." /></a>
-              <a href="#" className="fa fa-instragram"><img
-  src="..\images\instra.png"
-  className="p-2 w-12"
+              <a href="#" className="fa fa-instragram"><Image
+  src="/images/instra.png"
+  className="p-2 w-12" height={200} width={200}
   alt="..." /></a></div>
             </div>
           </div>

@@ -4,7 +4,6 @@ import styles from "@/styles/home.module.scss";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Image from "next/image";
 
-
 const AboutUs = () => {
   return (
 <React.Fragment>
@@ -14,8 +13,8 @@ const AboutUs = () => {
     <h2 className="text-4xl font-semibold">CORPORATE</h2><h2 className="text-4xl font-semibold">PROFILE</h2>
     <p> Since 2000 | India-Bangalore headquarter</p>
   </div>
-  <div className="absolute bottom-[-32px]"><img
-  src="..\images\Icon.png"
+  <div className="absolute bottom-[-32px]"><Image
+  src="/images/Icon.png"
   className="w-16"
   alt="..." />
 </div>
@@ -27,7 +26,7 @@ const AboutUs = () => {
   <div className="w-4/5 flex-auto pl-20 border-l-2">
     <div className="w-full">
       <p className="text-sm font-medium leading-loose">Since its inception, Global Tech Park (GTP) has consistently proven to be a venture of bold 
-      ambition and success. Led by Chairman Satish P Chandra, GTP has grown from developing Bangalore's iconic "The Dome'' into a holding company across the globe with widespread investments in software engineering, healthcare technology and renewable solar energy operations.
+      ambition and success. Led by Chairman Satish P Chandra, GTP has grown from developing Bangalore&#39;s iconic&#36;the Dome&#36; into a holding company across the globe with widespread investments in software engineering, healthcare technology and renewable solar energy operations.
 
 </p><p className="text-sm font-medium leading-loose pt-2">We are known for taking risks whilst creating an encouraging environment for professionals alike. Today we operate in multiple countries including UK/USA/Switzerland/Netherlands/Singapore among others; driving 
 impactful progress wherever an opportunity arises.</p></div>
@@ -48,19 +47,21 @@ impactful progress wherever an opportunity arises.</p></div>
   </div>
   <div className="w-[30%] flex-auto pr-4">
     <div className="w-full"><h1 className="mb-3 text-lg font-semibold">Sathish Chandra</h1><Image
-  src="..\images\Sathish-P-Chandra.jpg" alt="..." />
+  src="/images/Sathish-P-Chandra.jpg"
+  
+  alt="..." />
 
       </div>
   </div>
   <div className="w-6/12 flex-auto pl-10 pt-5">
-    <div className="w-full"><p className=" text-sm font-medium leading-loose mt-3">Satish P Chandra is the inspirational Chairman and Managing Director of Global Tech Park, a rapidly expanding provider of infrastructure solutions in India. He was instrumental in creating Bengaluru's iconic commercial site Think Campus in Electronic City - fondly known as "the Dome".
+    <div className="w-full"><p className=" text-sm font-medium leading-loose mt-3">Satish P Chandra is the inspirational Chairman and Managing Director of Global Tech Park, a rapidly expanding provider of infrastructure solutions in India. He was instrumental in creating Bengaluru&#39; s iconic commercial site Think Campus in Electronic City - fondly known as &#36;the Dome&#36;.
 
 His vision has opened up doors to numerous sectors such as healthcare, software technology, solar power and logistic services, earning him prestigious awards like Businessman of the Year from BSICC & Golden Peacock Eco-Innovative Award by GIIS Balestier. Moreover, his commitment towards Corporate Social Responsibility (CSR) sets him apart from others.</p>
       </div>
   </div>
 </div>
-<div className="w-full pt-20 pb-20"><img
-  src="..\images\GTP_About-Us_2.jpg"
+<div className="w-full pt-20 pb-20"><Image
+  src="/images/GTP_About-Us_2.jpg"
   className="w-full"
   alt="..." />
 </div>
@@ -70,15 +71,15 @@ His vision has opened up doors to numerous sectors such as healthcare, software 
   </div>
   <div className="w-[30%] flex-auto pr-4">
     <div className="w-full"><h1 className="mb-3 text-lg font-semibold">Chetan Chandra</h1>
-    <img
-  src="..\images\Chetan-Chandra.jpg"
+    <Image
+  src="/images/Chetan-Chandra.jpg"
   
   alt="..." />
 
       </div>
   </div>
   <div className="md:w-6/12 flex-auto pl-10 pt-5 md:pl-10">
-    <div className="w-full"><p className=" text-sm font-medium leading-loose mt-3">Satish P Chandra is the inspirational Chairman and Managing Director of Global Tech Park, a rapidly expanding provider of infrastructure solutions in India. He was instrumental in creating Bengaluru's iconic commercial site Think Campus in Electronic City - fondly known as "the Dome".
+    <div className="w-full"><p className=" text-sm font-medium leading-loose mt-3">Satish P Chandra is the inspirational Chairman and Managing Director of Global Tech Park, a rapidly expanding provider of infrastructure solutions in India. He was instrumental in creating Bengaluru&#39; s iconic commercial site Think Campus in Electronic City - fondly known as &#36;the Dome&#36;.
 
 His vision has opened up doors to numerous sectors such as healthcare, software technology, solar power and logistic services, earning him prestigious awards like Businessman of the Year from BSICC & Golden Peacock Eco-Innovative Award by GIIS Balestier. Moreover, his commitment towards Corporate Social Responsibility (CSR) sets him apart from others.</p>
       </div>
@@ -90,15 +91,15 @@ His vision has opened up doors to numerous sectors such as healthcare, software 
   </div>
   <div className="w-[30%] flex-auto pr-4">
     <div className="w-full"><h1 className="mb-3 text-lg font-semibold">Bindu Chandra</h1> 
-   <img
-  src="..\images\Bindu-Chandra.jpg"
+   <Image
+  src="/images/Bindu-Chandra.jpg"
   
   alt="..." />
 
       </div>
   </div>
   <div className="w-6/12 flex-auto pl-10 pt-5">
-    <div className="w-full"><p className=" text-sm font-medium leading-loose mt-3">Satish P Chandra is the inspirational Chairman and Managing Director of Global Tech Park, a rapidly expanding provider of infrastructure solutions in India. He was instrumental in creating Bengaluru's iconic commercial site Think Campus in Electronic City - fondly known as "the Dome".
+    <div className="w-full"><p className=" text-sm font-medium leading-loose mt-3">Satish P Chandra is the inspirational Chairman and Managing Director of Global Tech Park, a rapidly expanding provider of infrastructure solutions in India. He was instrumental in creating Bengaluru&#39; s iconic commercial site Think Campus in Electronic City - fondly known as &#36;the Dome&#36;.
 
 His vision has opened up doors to numerous sectors such as healthcare, software technology, solar power and logistic services, earning him prestigious awards like Businessman of the Year from BSICC & Golden Peacock Eco-Innovative Award by GIIS Balestier. Moreover, his commitment towards Corporate Social Responsibility (CSR) sets him apart from others.</p>
       </div>
