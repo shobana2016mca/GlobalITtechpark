@@ -14,14 +14,14 @@ const AboutUs = () => {
     <p> Since 2000 | India-Bangalore headquarter</p>
   </div>
   <div className="absolute bottom-[-32px]"><Image
-  src="/images/Icon.png"
-  className="w-16"
+  src="/images/Icon.png" height={200} width={200}
+  className="w-16" 
   alt="..." />
 </div>
 </div>
 <div className="flex flex-wrap p-20 md:p-20">
   <div className="w-1/5 flex-auto">
-    <div className="w-full"><h1 className="text-xl font-bold primary-color">Who</h1> <br/><h1 className="text-xl font-bold primary-color">we are</h1> </div>
+    <div className="w-full"><h1 className="text-2xl font-bold primary-color">Who</h1><h1 className="text-2xl font-bold primary-color">we are</h1> </div>
   </div>
   <div className="w-4/5 flex-auto pl-20 border-l-2">
     <div className="w-full">
@@ -34,7 +34,7 @@ impactful progress wherever an opportunity arises.</p></div>
 </div>
 <div className="flex flex-wrap px-20">
   <div className="w-1/5 flex-auto">
-    <div className="w-full text-xl font-bold">People </div>
+    <div className="w-full text-2xl font-bold primary-color">People </div>
   </div>
   <div className="w-4/5 flex-auto  pt-2">
     <div className="w-full border-t-[3px]">
@@ -47,7 +47,7 @@ impactful progress wherever an opportunity arises.</p></div>
   </div>
   <div className="w-[30%] flex-auto pr-4">
     <div className="w-full"><h1 className="mb-3 text-lg font-semibold">Sathish Chandra</h1><Image
-  src="/images/Sathish-P-Chandra.jpg"
+  src="/images/Sathish-P-Chandra.jpg" height={300} width={300}
   
   alt="..." />
 
@@ -61,7 +61,7 @@ His vision has opened up doors to numerous sectors such as healthcare, software 
   </div>
 </div>
 <div className="w-full pt-20 pb-20"><Image
-  src="/images/GTP_About-Us_2.jpg"
+  src="/images/GTP_About-Us_2.jpg" height={420} width={1237}
   className="w-full"
   alt="..." />
 </div>
@@ -72,8 +72,7 @@ His vision has opened up doors to numerous sectors such as healthcare, software 
   <div className="w-[30%] flex-auto pr-4">
     <div className="w-full"><h1 className="mb-3 text-lg font-semibold">Chetan Chandra</h1>
     <Image
-  src="/images/Chetan-Chandra.jpg"
-  
+  src="/images/Chetan-Chandra.jpg" height={300} width={300}
   alt="..." />
 
       </div>
@@ -92,7 +91,7 @@ His vision has opened up doors to numerous sectors such as healthcare, software 
   <div className="w-[30%] flex-auto pr-4">
     <div className="w-full"><h1 className="mb-3 text-lg font-semibold">Bindu Chandra</h1> 
    <Image
-  src="/images/Bindu-Chandra.jpg"
+  src="/images/Bindu-Chandra.jpg" height={300} width={300}
   
   alt="..." />
 
