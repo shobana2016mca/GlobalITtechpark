@@ -105,7 +105,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-col">
-            <p className="">
+            <p className="text-xl">
               Since 1995, GTP has been building some of the most recognized
               buildings in South India. Our signature DOME, has been copied by
               many - which we think is the best compliment - over the last 2
