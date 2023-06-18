@@ -37,20 +37,20 @@ const AboutUs = () => {
 </div>
 <div className="w-full pt-10 pb-20"><Image
   src="/images/GTP_Project_2.jpg"
-  className="w-full" height={200} width={1200}
+  className="w-full" height={600} width={1230}
   alt="..." />
 </div>
 <div className="flex flex-wrap">
   <div className="w-3/6 flex-auto pr-4">
   <Image
   src="/images/GTP_Project_3.jpg"
-  className="w-full" height={200} width={500}
+  className="w-full" height={900} width={600}
   alt="..." />
   </div>
   <div className="w-3/6 flex-auto pl-4">
   <Image
   src="/images/GTP_Project_4.jpg"
-  className="w-full" height={200} width={500}
+  className="w-full" height={900} width={600}
   alt="..." />
   </div>
 </div>
