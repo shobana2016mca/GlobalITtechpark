@@ -59,7 +59,7 @@ const AboutUs = () => {
   <h2 className="text-2xl text-center font-bold primary-color">2 Million Square foot</h2>
   <p className="w-1/2 mx-auto text-center font-normal">Since 1995, GTP has been building some of the most recognized buildings in South India. Our signature DOME, has been copied by many - which we think 
   is the best compliment - over the last 2 decades.</p>
-  <Image height={500} width={1200}
+  <Image height={600} width={1230}
   src="/images/GTP_Project_5.jpg"
   className="w-full pt-10"
   alt="..." />
