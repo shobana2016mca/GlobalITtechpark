@@ -23,7 +23,7 @@ const AboutUs = () => {
   <div className="w-1/5 flex-auto">
     <div className="w-full"><h1 className="text-xl font-bold primary-color">2 Million <br/>Square foot</h1><h1 className="text-xl font-medium">In Commerical <br/>Spaces</h1> </div>
   </div>
-  <div className="w-3/5 flex-auto pl-10 pr-10 border-l-2">
+  <div className="w-3/5 flex-auto pl-20 pr-20 border-l-2">
     <div className="w-full">
       <p className="text-sm font-medium leading-loose">Since 1995, GTP has been building some of the most recognized buildings in South India. Our signature DOME, 
       has been copied by many - which we think is the best compliment - over the last 2 decades.</p>
@@ -37,20 +37,20 @@ const AboutUs = () => {
 </div>
 <div className="w-full pt-10 pb-20"><Image
   src="/images/GTP_Project_2.jpg"
-  className="w-full" height={200} width={200}
+  className="w-full" height={600} width={1230}
   alt="..." />
 </div>
 <div className="flex flex-wrap">
   <div className="w-3/6 flex-auto pr-4">
   <Image
   src="/images/GTP_Project_3.jpg"
-  className="w-full" height={200} width={200}
+  className="w-full" height={900} width={600}
   alt="..." />
   </div>
   <div className="w-3/6 flex-auto pl-4">
   <Image
   src="/images/GTP_Project_4.jpg"
-  className="w-full" height={200} width={200}
+  className="w-full" height={900} width={600}
   alt="..." />
   </div>
 </div>
@@ -59,7 +59,7 @@ const AboutUs = () => {
   <h2 className="text-2xl text-center font-bold primary-color">2 Million Square foot</h2>
   <p className="w-1/2 mx-auto text-center font-normal">Since 1995, GTP has been building some of the most recognized buildings in South India. Our signature DOME, has been copied by many - which we think 
   is the best compliment - over the last 2 decades.</p>
-  <Image height={200} width={200}
+  <Image height={600} width={1230}
   src="/images/GTP_Project_5.jpg"
   className="w-full pt-10"
   alt="..." />

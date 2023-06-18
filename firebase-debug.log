@@ -1,0 +1,86 @@
+[debug] [2023-06-10T09:16:08.778Z] ----------------------------------------------------------------------
+[debug] [2023-06-10T09:16:08.781Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting
+[debug] [2023-06-10T09:16:08.782Z] CLI Version:   12.3.1
+[debug] [2023-06-10T09:16:08.783Z] Platform:      win32
+[debug] [2023-06-10T09:16:08.784Z] Node Version:  v18.13.0
+[debug] [2023-06-10T09:16:08.785Z] Time:          Sat Jun 10 2023 14:46:08 GMT+0530 (India Standard Time)
+[debug] [2023-06-10T09:16:08.785Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-10T09:16:08.924Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-10T09:16:08.925Z] > authorizing via signed-in user (ursweetshobana.r@gmail.com)
+[debug] [2023-06-10T09:16:08.925Z] [iam] checking project global-475bf for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-06-10T09:16:08.929Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/global-475bf:testIamPermissions [none]
+[debug] [2023-06-10T09:16:08.930Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/global-475bf:testIamPermissions x-goog-quota-user=projects/global-475bf
+[debug] [2023-06-10T09:16:08.931Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/global-475bf:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-06-10T09:16:10.699Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/global-475bf:testIamPermissions 200
+[debug] [2023-06-10T09:16:10.700Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/global-475bf:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-06-10T09:16:10.702Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/global-475bf [none]
+[debug] [2023-06-10T09:16:11.327Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/global-475bf 200
+[debug] [2023-06-10T09:16:11.328Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/global-475bf {"projectId":"global-475bf","projectNumber":"1088903841723","displayName":"global","name":"projects/global-475bf","resources":{"hostingSite":"global-475bf"},"state":"ACTIVE","etag":"1_da7d63ce-5595-4f50-b8c4-672afe2e9784"}
+[info] 
+[info] === Deploying to 'global-475bf'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2023-06-10T09:16:11.374Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/global-475bf/versions [none]
+[debug] [2023-06-10T09:16:11.375Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/global-475bf/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2023-06-10T09:16:12.788Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/global-475bf/versions 200
+[debug] [2023-06-10T09:16:12.789Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/global-475bf/versions {"name":"projects/1088903841723/sites/global-475bf/versions/2a8ea76f5b0e9633","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[global-475bf]: beginning deploy... 
+[info] i  hosting[global-475bf]: found 30 files in public 
+[debug] [2023-06-10T09:16:32.493Z] [hosting] uploading with 200 concurrency
+[debug] [2023-06-10T09:16:32.527Z] [hosting] hash cache [cHVibGlj] stored for 30 files
+[debug] [2023-06-10T09:16:32.527Z] [hosting][hash queue][FINAL] {"max":17,"min":1,"avg":1.5333333333333334,"active":0,"complete":30,"success":30,"errored":0,"retried":0,"total":30,"elapsed":27}
+[debug] [2023-06-10T09:16:32.528Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/1088903841723/sites/global-475bf/versions/2a8ea76f5b0e9633:populateFiles [none]
+[debug] [2023-06-10T09:16:32.528Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/1088903841723/sites/global-475bf/versions/2a8ea76f5b0e9633:populateFiles {"files":{"/favicon.ico":"43127f4210c52bcd0f30f291f1ee296ab41ddd1566905dc27fe1129e0175c8f1","/g-logo.webp":"1b1f196c710795454bc07602cb783f7a5280c855186bcbc5ccd7f547b328e497","/gtp logo.svg":"6b14dd9f9857b4ada338f2a5b00eba3ddbf28d1399663e1f7351eb5377de0f9d","/h-logo.webp":"90474b98f384d64299cdec1b3e8efcee95f398de70c526bec309f23bf4b3c06f","/next.svg":"dd6837ad10912a1f5820eb31ad506e500d83be91a8635fcfa59b04d06f671fdc","/vercel.svg":"1c03fbc03ff9ecf3469972d378778b1aea296f8ab9cb540af9d42c7848f52888","/images/Bindu-Chandra.jpg":"223bc88bd5481f853725e72db4568d3ed90d42b20ebae8e38b1ebde1db639003","/images/Chetan-Chandra.jpg":"9a64425cf582495efed6b88d9fb12be19f164ddf6611e9c40d0dfda29bf08847","/images/concern.webp":"7fa4f93e18b1bfa3906f5c498530c2aeadfd7ff121fea2ec0b21c32389d1bd9a","/images/csr.png":"d5d628d464e06cc25bd29f747bd366b7496e5e392bec9f4cd12a08fdf632a6c3","/images/facebook.png":"59dcefc94a89964ab954b25f718a84f18a0ef62458af80beba8274616764810c","/images/fb.png":"e2c0a3e24c271328119acfe1f3cd5293f494a7fd80f9ab24f831dfda8ad5939f","/images/footer-bg.webp":"5f9ce77f3b47e71219a8d7446be42ac7938306132487c54308c09a1213eb559a","/images/GTP_About-Us_1.jpg":"9913a8dbb98f4d065aa88c3d833229eddf843fcde3038872bee40b2ebe8143ea","/images/GTP_About-Us_2.jpg":"a4b2678d3c5ba516d1af1b71541df6167ed00785fa2fde7953f15d0c781d6e04","/images/GTP_Project_1.jpg":"0a4b66cd3340f7884607fcca52d2b5bd1bf5af7b9b8bc00e64c3842f43219573","/images/GTP_Project_2.jpg":"118a3a75bf96384138528eb13ac1360e817ef39dce264aebff9dda7eb89d8dcb","/images/GTP_Project_3.jpg":"b2c45555c11600ece1f42ec611b28c26c8cc89ebeceb2cf2f597cd48450ede9b","/images/GTP_Project_4.jpg":"a280ec541f57326d454401210daaa06dcaaa7e3765a595cad583ff439010c955","/images/GTP_Project_5.jpg":"6b881413c878b39e705fc54a94f6305f94e2b1320631708915d0243206839d70","/images/GTP_Project_6.jpg":"52658be787376b6d80469f5162d2bde3ee5f85311e44e4ff8ea2315c8d167ec9","/images/GTP_Project_7.jpg":"6e911183429fe5603766bcb7808bfb6da909515629d99e51036335eda6ba2380","/images/GTP_Project_8.jpg":"482c3885d9e3b92b89b85270d667350fa09d7bd6454b02bc89d9e6852ea1c06d","/images/hero.jpg":"3999b6c03484d53d3cedf4dfe816475df5ce09317a35f759869b486af7124027","/images/Icon.png":"ab71e8224013fec64a7f121329430df26a3f723617c6c0cb710e35c02f482e7f","/images/instra.png":"fcbb981d06281b2b2655dcaa500d7845b26b67405310bb43584bb1177fd86ff7","/images/orange-image.jpg":"f01711f9d0fe68483582bd1873b0ee326f3796cb1c24e9ba0c14f343195f5d43","/images/Sathish-P-Chandra.jpg":"a73c2bfe09be433535b2faefdea15719920d9d8c96ba86f6503a3736428934ac","/images/towers.jpg":"d051616d569167861c988b557db3a698d9420f9600367d8fd04e1cf161f5c745","/index.html":"80651480aedf4c790a9b6c88ab0158d5c62633b16d288ec4b0d0c7d75e3bb8db"}}
+[debug] [2023-06-10T09:16:36.402Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/1088903841723/sites/global-475bf/versions/2a8ea76f5b0e9633:populateFiles 200
+[debug] [2023-06-10T09:16:36.403Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/1088903841723/sites/global-475bf/versions/2a8ea76f5b0e9633:populateFiles {"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/global-475bf/versions/2a8ea76f5b0e9633/files"}
+[debug] [2023-06-10T09:16:36.405Z] [hosting][populate queue][FINAL] {"max":3884,"min":3884,"avg":3884,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":3885}
+[debug] [2023-06-10T09:16:36.406Z] [hosting] uploads queued: 0
+[debug] [2023-06-10T09:16:36.407Z] [hosting][upload queue][FINAL] {"max":0,"min":9999999999,"avg":0,"active":0,"complete":0,"success":0,"errored":0,"retried":0,"total":0,"elapsed":1686388596407}
+[info] +  hosting[global-475bf]: file upload complete 
+[debug] [2023-06-10T09:16:36.421Z] [hosting] deploy completed after 3999ms
+[debug] [2023-06-10T09:16:36.427Z] [
+  {
+    "config": {
+      "public": "public",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "global-475bf"
+    },
+    "version": "projects/1088903841723/sites/global-475bf/versions/2a8ea76f5b0e9633"
+  }
+]
+[info] i  hosting[global-475bf]: finalizing version... 
+[debug] [2023-06-10T09:16:36.439Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/global-475bf/versions/2a8ea76f5b0e9633 updateMask=status%2Cconfig
+[debug] [2023-06-10T09:16:36.439Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/global-475bf/versions/2a8ea76f5b0e9633 {"status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]}}
+[debug] [2023-06-10T09:16:37.582Z] <<< [apiv2][status] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/global-475bf/versions/2a8ea76f5b0e9633 200
+[debug] [2023-06-10T09:16:37.583Z] <<< [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/global-475bf/versions/2a8ea76f5b0e9633 {"name":"projects/1088903841723/sites/global-475bf/versions/2a8ea76f5b0e9633","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2023-06-10T09:16:11.322331Z","createUser":{"email":"ursweetshobana.r@gmail.com"},"finalizeTime":"2023-06-10T09:16:36.374858Z","finalizeUser":{"email":"ursweetshobana.r@gmail.com"}}
+[debug] [2023-06-10T09:16:37.584Z] [hosting] finalized version for global-475bf:[object Object]
+[info] +  hosting[global-475bf]: version finalized 
+[info] i  hosting[global-475bf]: releasing new version... 
+[debug] [2023-06-10T09:16:37.590Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/global-475bf/channels/live/releases versionName=projects%2F1088903841723%2Fsites%2Fglobal-475bf%2Fversions%2F2a8ea76f5b0e9633
+[debug] [2023-06-10T09:16:37.590Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/global-475bf/channels/live/releases {}
+[debug] [2023-06-10T09:16:38.813Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/global-475bf/channels/live/releases 200
+[debug] [2023-06-10T09:16:38.813Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/global-475bf/channels/live/releases {"name":"projects/1088903841723/sites/global-475bf/channels/live/releases/1686388596992000","version":{"name":"projects/1088903841723/sites/global-475bf/versions/2a8ea76f5b0e9633","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2023-06-10T09:16:11.322331Z","createUser":{"email":"ursweetshobana.r@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTtccLnlIdkOuXuKBQx0yformoj7iVsXV1o2x8RfxVjw"},"finalizeTime":"2023-06-10T09:16:36.374858Z","finalizeUser":{"email":"ursweetshobana.r@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTtccLnlIdkOuXuKBQx0yformoj7iVsXV1o2x8RfxVjw"}},"type":"DEPLOY","releaseTime":"2023-06-10T09:16:36.992Z","releaseUser":{"email":"ursweetshobana.r@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTtccLnlIdkOuXuKBQx0yformoj7iVsXV1o2x8RfxVjw"}}
+[debug] [2023-06-10T09:16:38.814Z] [hosting] release: {"name":"projects/1088903841723/sites/global-475bf/channels/live/releases/1686388596992000","version":{"name":"projects/1088903841723/sites/global-475bf/versions/2a8ea76f5b0e9633","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2023-06-10T09:16:11.322331Z","createUser":{"email":"ursweetshobana.r@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTtccLnlIdkOuXuKBQx0yformoj7iVsXV1o2x8RfxVjw"},"finalizeTime":"2023-06-10T09:16:36.374858Z","finalizeUser":{"email":"ursweetshobana.r@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTtccLnlIdkOuXuKBQx0yformoj7iVsXV1o2x8RfxVjw"}},"type":"DEPLOY","releaseTime":"2023-06-10T09:16:36.992Z","releaseUser":{"email":"ursweetshobana.r@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTtccLnlIdkOuXuKBQx0yformoj7iVsXV1o2x8RfxVjw"}}
+[info] +  hosting[global-475bf]: release complete 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/global-475bf/overview
+[info] Hosting URL: https://global-475bf.web.app
+[debug] [2023-06-10T09:16:46.688Z] Error: Timed out.
+    at Timeout.<anonymous> (C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.

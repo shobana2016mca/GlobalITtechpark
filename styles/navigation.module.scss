@@ -4,22 +4,24 @@
   background: rgb(255, 255, 255);
   position: fixed;
   display: flex;
-  align-items: center;
   top: 0;
   right: 0;
   z-index: 99;
   justify-content: center;
 
   ul {
-    display: flex;
-    align-items: center;
     li {
-      font-size: 2rem;
       font-weight: 600;
-      text-align: center;
+      font-size: 28px;
       transition: all 200ms ease;
       &:hover {
         color: #00bcd4;
+      }
+      li{
+        font-size: 24px;
+        li{
+          font-size: 22px;
+        }
       }
     }
   }
