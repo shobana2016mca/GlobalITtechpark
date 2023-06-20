@@ -30,18 +30,18 @@ const Navigation = ({ onClose, show }: NavigationProps) => {
                     <ul className="space-y-4">
                       {item.submenu.map((submenu) =>
                         submenu.sublinks ? (
-                          <li className="space-y-4" key={submenu.id}>
+                          <li className="" key={submenu.id}>
                             <details>
                               <summary>
                                 <Link href={submenu.url}>
-                                  {submenu.title}
+                                  {``} {submenu.title}
                                 </Link>
                               </summary>
                               <ul className="space-y-4">
                                 {submenu.sublinks.map((link) => (
                                   <li key={link.id}>
-                                    <Link href={link.url}>
-                                     {link.title}
+                                    <Link href={link.url} className="">
+                                      {``} {link.title}
                                     </Link>
                                   </li>
                                 ))}
@@ -86,27 +86,71 @@ const menuItems = [
     submenu: [
       {
         id: 1,
-        title: "About Company",
-        url: "/about-us",
-        
+        title: "Commercial Projects",
+        url: "/commercial-projects",
+        sublinks: [
+          {
+            id: 1,
+            title: "Think Campus 1",
+            url: "#think-campus-1",
+          },
+          {
+            id: 2,
+            title: "Bosch Adugodi",
+            url: "#bosch-adugodi",
+          },
+          {
+            id: 3,
+            title: "Bosch Coimbatore",
+            url: "#bosch-coimbatore",
+          },
+          {
+            id: 4,
+            title: "Global Tech Park Richmond",
+            url: "#global-tech-park-richmond",
+          },
+
+          {
+            id: 5,
+            title: "Think Campus 2",
+            url: "#think-campus-2",
+          },
+        ],
       },
       {
         id: 2,
-        title: "Leadership",
-        url: "/Leadership",
-        
+        title: "Residential Projects",
+        url: "/residential-projects",
+        sublinks: [
+          {
+            id: 1,
+            title: "Global Heights",
+            url: "#global-heights",
+          },
+          {
+            id: 2,
+            title: "Palm Trees",
+            url: "#palm-trees",
+          },
+        ],
       },
       {
         id: 3,
         title: "Others",
-        url: "#others",
-        
+        url: "/other-projects",
+        sublinks: [
+          {
+            id: 1,
+            title: "Solar Park Tumkur",
+            url: "#solar-park-tumkur",
+          },
+        ],
       },
     ],
   },
   {
     id: 2,
-    title: "Projects",
+    title: "Project",
     url: "/project",
     submenu: [
       {
@@ -178,5 +222,5 @@ const menuItems = [
     title: "Contact",
     url: "/contact-us",
   },
-  
+ 
 ];
