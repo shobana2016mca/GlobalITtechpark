@@ -23,7 +23,7 @@ const AboutUs = () => {
   <div className="w-1/5 flex-auto">
     <div className="w-full"><h1 className="text-xl font-bold primary-color">2 Million <br/>Square foot</h1><h1 className="text-xl font-medium">In Commerical <br/>Spaces</h1> </div>
   </div>
-  <div className="w-3/5 flex-auto pl-10 pr-10 border-l-2">
+  <div className="w-3/5 flex-auto pl-20 pr-20 border-l-2">
     <div className="w-full">
       <p className="text-sm font-medium leading-loose">Since 1995, GTP has been building some of the most recognized buildings in South India. Our signature DOME, 
       has been copied by many - which we think is the best compliment - over the last 2 decades.</p>

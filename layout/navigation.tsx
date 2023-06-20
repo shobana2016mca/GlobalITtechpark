@@ -27,21 +27,21 @@ const Navigation = ({ onClose, show }: NavigationProps) => {
                     <summary>
                       <Link href={item.url}>{item.title}</Link>
                     </summary>
-                    <ul className="ml-4 space-y-4">
+                    <ul className="space-y-4">
                       {item.submenu.map((submenu) =>
                         submenu.sublinks ? (
-                          <li className="ml-4" key={submenu.id}>
+                          <li className="space-y-4" key={submenu.id}>
                             <details>
                               <summary>
                                 <Link href={submenu.url}>
-                                  {`--`} {submenu.title}
+                                  {submenu.title}
                                 </Link>
                               </summary>
                               <ul className="space-y-4">
                                 {submenu.sublinks.map((link) => (
                                   <li key={link.id}>
-                                    <Link href={link.url} className="ml-4">
-                                      {`---`} {link.title}
+                                    <Link href={link.url}>
+                                     {link.title}
                                     </Link>
                                   </li>
                                 ))}
@@ -81,7 +81,32 @@ const menuItems = [
   },
   {
     id: 2,
-    title: "Project",
+    title: "About",
+    url: "/about-us",
+    submenu: [
+      {
+        id: 1,
+        title: "About Company",
+        url: "/about-us",
+        
+      },
+      {
+        id: 2,
+        title: "Leadership",
+        url: "/Leadership",
+        
+      },
+      {
+        id: 3,
+        title: "Others",
+        url: "#others",
+        
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Projects",
     url: "/project",
     submenu: [
       {
@@ -153,74 +178,5 @@ const menuItems = [
     title: "Contact",
     url: "/contact-us",
   },
-  {
-    id: 4,
-    title: "Features",
-    url: "/features",
-  },
-  {
-    id: 5,
-    title: "About Us",
-    url: "/about-us",
-    submenu: [
-      {
-        id: 1,
-        title: "About Us",
-        url: "/commercial-projects",
-        sublinks: [
-          {
-            id: 1,
-            title: "Think Campus 1",
-            url: "#think-campus-1",
-          },
-         
-          {
-            id: 3,
-            title: "Bosch Coimbatore",
-            url: "#bosch-coimbatore",
-          },
-          {
-            id: 4,
-            title: "Global Tech Park Richmond",
-            url: "#global-tech-park-richmond",
-          },
-
-          {
-            id: 5,
-            title: "Think Campus 2",
-            url: "#think-campus-2",
-          },
-        ],
-      },
-      {
-        id: 2,
-        title: "Residential Projects",
-        url: "/residential-projects",
-        sublinks: [
-          {
-            id: 1,
-            title: "Global Heights",
-            url: "#global-heights",
-          },
-          {
-            id: 2,
-            title: "Palm Trees",
-            url: "#palm-trees",
-          },
-        ],
-      },
-      {
-        id: 3,
-        title: "Others",
-        url: "/other-projects",
-        sublinks: [
-          {
-            id: 1,
-            title: "Solar Park Tumkur",
-            url: "#solar-park-tumkur",
-          },
-        ],
-      },
-    ],
-  },
+  
 ];
