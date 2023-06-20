@@ -88,27 +88,27 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
                 <p>01, Richmond Town, Bengaluru </p>
               </div>
             </div>
-            <div className="w-full pt-10 pl-10 text-white h-96 md:w-1/4 opacity-60">
+            <div className="footer-menu w-full pt-10 pl-10 text-white h-96 md:w-1/4 opacity-60">
               <h5>PRODUCTS</h5> <p className="pt-4 text-white">TECHPARKS</p>
-              <p>Think Campus 01</p>
-              <p>Think Campus 02</p>
-              <p>BOSCH Coimbatore</p>
-              <p>BOSCH Bengaluru</p>
-              <p className="pt-4 text-white text-[16px]">COMMERCIAL SPACE</p>
+              <p><a href="/Think-Campus1">Think Campus 01</a></p>
+              <p><a href="/Think-Campus2">Think Campus 02</a></p>
+              <p><a href="/Bosch-coimbatore">BOSCH Coimbatore</a></p>
+              <p><a href="/Bosch-bengalore">BOSCH Bengaluru</a></p>
+              <p className="pt-4 text-white text-[16px]"><a href="/commerical">COMMERCIAL SPACE</a></p>
               <p className="text-[16px]">GTP Shantinagar</p>
               <p className="pt-4 text-white">RESIDENTIAL</p>
-              <p>Global Heights</p>
-              <p>Satko Palmtrees</p>
+              <p><a href="/Global-Heights">Global Heights</a></p>
+              <p><a href="/Global-Palmtrees">Satko Palmtrees</a></p>
             </div>
-            <div className="w-full pt-10 text-white md:h-96 md:w-1/4 opacity-60">
-              <h5>ABOUT US</h5> <p className="pt-4 text-grey">About GTP</p>
-              <p>People</p>
+            <div className="footer-menu w-full pt-10 text-white md:h-96 md:w-1/4 opacity-60">
+              <h5>ABOUT US</h5> <p className="pt-4 text-grey"><a href="/about-us">About GTP</a></p>
+              <p><a href="/Leadership">People</a></p>
               <p className="pt-4 text-white text-[18px]">
                 Corporate Social Responsibility
               </p>
-              <p></p>Contact Us
+              <p><a href="/contact-us">Contact Us</a></p>
             </div>
-            <div className="w-full pt-8 text-white md:h-96 md:w-1/4">
+            <div className="footer-menu w-full pt-8 text-white md:h-96 md:w-1/4">
               <h5 className="opacity-60">FOLLOW US ON</h5>
               <div className="flex">
                 <a href="#" className="fa fa-facebook">

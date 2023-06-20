@@ -37,7 +37,7 @@ export default function Home() {
             </div>
             <div className={`${styles["controls"]} pt-8` }>
               <button className="bg-[#1087d2] text-white ">
-                VIEW PROJECT →
+                VIEW PROJECT  <span className="ml-4"> →</span>
               </button>
             </div>
           </div>
@@ -52,8 +52,8 @@ export default function Home() {
             </div>
             <div className={`${styles["controls"]} pt-8` }>
 
-              <button className="bg-[#30abb7] text-white p-2">
-                VIEW PROJECT →
+            <button className="bg-[#1087d2] text-white ">
+                VIEW PROJECT  <span className="ml-4"> →</span>
               </button>
             </div>
           </div>
@@ -72,18 +72,19 @@ export default function Home() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className={`${styles["slide-container"]} p-20`}>
+        <div className={`${styles["slide-container"]} p-20`}>
             <div className={styles["content"]}>
             <h1>THINK</h1><h1> CAMPUS</h1>
-              <p className="px-12 pt-14">Bangalore | 1.2 Million Square-Foot | TCS</p>
+              <p>Bangalore | 1.2 Million Square-Foot | TCS</p>
             </div>
-            <div className={`${styles["controls"]} pt-8` }>
-              <button className="bg-[#1087d2] text-white p-2">
-                VIEW PROJECT →
+             <div className={`${styles["controls"]} pt-8` }>
+             <button className="bg-[#1087d2] text-white ">
+                VIEW PROJECT  <span className="ml-4"> →</span>
               </button>
             </div>
           </div>
         </SwiperSlide>
+       
       </Swiper>
       <div className={`${styles["middle-container"]} pl-16 pt-16 pb-16 mt-5 mb-12`}>
         <div className={`${styles["image"]} w-full md:w-3/5`}></div>
@@ -105,7 +106,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-col">
-            <p className="text-xl">
+            <p className="text-sm font-medium leading-loose">
               Since 1995, GTP has been building some of the most recognized
               buildings in South India. Our signature DOME, has been copied by
               many - which we think is the best compliment - over the last 2
@@ -124,11 +125,11 @@ export default function Home() {
           <h1 className="text-5xl font-semibold not-italic text-left text-white">
             Concern for Community
           </h1>
-          <p className="text-base font-normal not-italic text-left text-white ff-tinos w-1/2">
+          <p className="text-base font-normal not-italic text-left text-white  w-1/2">
             We focus on specific societal issues, including the environment,
             community, economic development, education, health and culture.
           </p>
-          <p className="text-base font-normal not-italic text-left text-white ff-tinos">
+          <p className="text-base font-normal not-italic text-left text-white">
             Satish Chandra - Chairman
           </p>
         </div>

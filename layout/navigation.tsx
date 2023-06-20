@@ -13,7 +13,7 @@ const Navigation = ({ onClose, show }: NavigationProps) => {
   return (
     <React.Fragment>
       {show && (
-        <nav className={`${css["container"]} w-3/4 md:w-1/4 p-5 `}>
+        <nav className={`${css["container"]} w-3/4 md:w-1/4 p-5 animate fadeInRight one`}>
           <span className={css["close-icon"]} onClick={onClose}>
             <CloseIcon height={30} width={30} />
           </span>
@@ -34,14 +34,14 @@ const Navigation = ({ onClose, show }: NavigationProps) => {
                             <details>
                               <summary>
                                 <Link href={submenu.url}>
-                                  {``} {submenu.title}
+                                {submenu.title}
                                 </Link>
                               </summary>
                               <ul className="space-y-4">
                                 {submenu.sublinks.map((link) => (
                                   <li key={link.id}>
                                     <Link href={link.url} className="">
-                                      {``} {link.title}
+                                       {link.title}
                                     </Link>
                                   </li>
                                 ))}
@@ -86,65 +86,24 @@ const menuItems = [
     submenu: [
       {
         id: 1,
-        title: "Commercial Projects",
+        title: "About Company",
         url: "/commercial-projects",
         sublinks: [
-          {
-            id: 1,
-            title: "Think Campus 1",
-            url: "#think-campus-1",
-          },
-          {
-            id: 2,
-            title: "Bosch Adugodi",
-            url: "#bosch-adugodi",
-          },
-          {
-            id: 3,
-            title: "Bosch Coimbatore",
-            url: "#bosch-coimbatore",
-          },
-          {
-            id: 4,
-            title: "Global Tech Park Richmond",
-            url: "#global-tech-park-richmond",
-          },
-
-          {
-            id: 5,
-            title: "Think Campus 2",
-            url: "#think-campus-2",
-          },
+          
+          
         ],
       },
       {
         id: 2,
-        title: "Residential Projects",
+        title: "Leadership",
         url: "/residential-projects",
-        sublinks: [
-          {
-            id: 1,
-            title: "Global Heights",
-            url: "#global-heights",
-          },
-          {
-            id: 2,
-            title: "Palm Trees",
-            url: "#palm-trees",
-          },
-        ],
+        
       },
       {
         id: 3,
-        title: "Others",
-        url: "/other-projects",
-        sublinks: [
-          {
-            id: 1,
-            title: "Solar Park Tumkur",
-            url: "#solar-park-tumkur",
-          },
-        ],
+        title: "CSR",
+        url: "/csr-copy",
+       
       },
     ],
   },
