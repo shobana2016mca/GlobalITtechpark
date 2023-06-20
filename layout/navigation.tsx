@@ -115,33 +115,33 @@ const menuItems = [
       {
         id: 1,
         title: "Commercial Projects",
-        url: "/commercial-projects",
+        url: "/commercial",
         sublinks: [
           {
             id: 1,
             title: "Think Campus 1",
-            url: "#think-campus-1",
+            url: "/think-campus1",
           },
           {
             id: 2,
             title: "Bosch Adugodi",
-            url: "#bosch-adugodi",
+            url: "/bosch-adugodi",
           },
           {
             id: 3,
             title: "Bosch Coimbatore",
-            url: "#bosch-coimbatore",
+            url: "/bosch-coimbatore",
           },
           {
             id: 4,
             title: "Global Tech Park Richmond",
-            url: "#global-tech-park-richmond",
+            url: "/Global-Heights",
           },
 
           {
             id: 5,
             title: "Think Campus 2",
-            url: "#think-campus-2",
+            url: "think-campus2",
           },
         ],
       },
