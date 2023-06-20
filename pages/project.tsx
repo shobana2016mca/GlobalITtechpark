@@ -25,7 +25,7 @@ const AboutUs = () => {
   </div>
   <div className="w-3/5 flex-auto pl-20 pr-20 border-l-2">
     <div className="w-full">
-      <p className="text-sm font-medium leading-loose">Since 1995, GTP has been building some of the most recognized buildings in South India. Our signature DOME, 
+      <p className="text-[16px] font-normal leading-loose">Since 1995, GTP has been building some of the most recognized buildings in South India. Our signature DOME, 
       has been copied by many - which we think is the best compliment - over the last 2 decades.</p>
      </div>
   </div>
@@ -57,7 +57,7 @@ const AboutUs = () => {
 
 <div className="w-full pt-20 pb-20">
   <h2 className="text-2xl text-center font-bold primary-color">2 Million Square foot</h2>
-  <p className="w-1/2 mx-auto text-center font-normal">Since 1995, GTP has been building some of the most recognized buildings in South India. Our signature DOME, has been copied by many - which we think 
+  <p className="w-3/5 mx-auto text-center font-normal">Since 1995, GTP has been building some of the most recognized buildings in South India. Our signature DOME, has been copied by many - which we think 
   is the best compliment - over the last 2 decades.</p>
   <Image height={600} width={1230}
   src="/images/GTP_Project_5.jpg"

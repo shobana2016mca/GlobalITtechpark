@@ -96,7 +96,7 @@ const menuItems = [
       {
         id: 2,
         title: "Leadership",
-        url: "/Leadership",
+        url: "/leadership",
         
       },
       {

@@ -41,14 +41,14 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
           <span className="text-[#a7a4a4] text-xs md:text-base space-x-2">
             {/* TODO: Here change the links to where you want it to go, i have just given /project and /contact-us just to make sure its working */}
             <Link
-              href={"/"}
+              href={"/commerical"}
               className={activeLink("/commerical") ? "text-[#30abb7]" : ""}
             >
               Commercial Buildings
             </Link>
             <span>|</span>
             <Link
-              href={"/project"}
+              href={"/Residental"}
               className={activeLink("/Residental") ? "text-[#30abb7]" : ""}
             >
               Residential Buildings
