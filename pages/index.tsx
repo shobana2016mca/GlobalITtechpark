@@ -106,7 +106,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-col">
-            <p className="text-sm font-medium leading-loose">
+            <p className="text-sm font-normal leading-loose">
               Since 1995, GTP has been building some of the most recognized
               buildings in South India. Our signature DOME, has been copied by
               many - which we think is the best compliment - over the last 2
@@ -128,8 +128,6 @@ export default function Home() {
           <p className="text-base font-normal not-italic text-left text-white  w-1/2">
             We focus on specific societal issues, including the environment,
             community, economic development, education, health and culture.
-          </p>
-          <p className="text-base font-normal not-italic text-left text-white">
             Satish Chandra - Chairman
           </p>
         </div>

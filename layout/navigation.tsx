@@ -87,7 +87,7 @@ const menuItems = [
       {
         id: 1,
         title: "About Company",
-        url: "/commercial-projects",
+        url: "/about-us",
         sublinks: [
           
           
@@ -96,7 +96,7 @@ const menuItems = [
       {
         id: 2,
         title: "Leadership",
-        url: "/residential-projects",
+        url: "/Leadership",
         
       },
       {

@@ -44,7 +44,7 @@ body {
 }
 .footer-inner {
   background-image: url(../public/images/footer-bg.webp);
-  background-position: center;
+  background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }

@@ -74,7 +74,7 @@
   display: flex;
   align-items: center;
   position: relative;
-  min-height: 80vh;
+  min-height: 90vh;
   .card-container {
     left: 0;
     top: 50%;
@@ -106,10 +106,10 @@
   .card {
     h2 {
       font-size: 1.5rem;
-      font-weight: 400;
+      font-weight: 500;
       font-style: normal;
       text-align: left;
-      color: #f3762e;
+      color: #00bcd4;
       // max-width: 60%;
       font-weight: 600;
     }
