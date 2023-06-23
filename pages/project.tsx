@@ -10,8 +10,8 @@ const AboutUs = () => {
   
   <div className={`${styles["about-container"]} p-20 md:p-20`}>
   <div className={styles["content"]}>
-    <h2 className="text-4xl font-semibold">THINK</h2><h2 className="text-4xl font-semibold">CAMPUS</h2>
-    <p> Since 2000 | India-Bangalore headquarter</p>
+    <h2 className="text-5xl font-semibold">THINK</h2><h2 className="text-5xl font-semibold">CAMPUS</h2>
+    <p className="text-3xl font-semibold"> Bangalore | 1.2 Million Square-Foot | TCS</p>
   </div>
   <div className="absolute bottom-[-32px]"><Image
   src="/images/Icon.png" height={200} width={200}
@@ -21,11 +21,11 @@ const AboutUs = () => {
 </div>
 <div className="flex flex-wrap p-20 md:p-20">
   <div className="w-1/5 flex-auto">
-    <div className="w-full"><h1 className="text-xl font-bold primary-color">2 Million <br/>Square foot</h1><h1 className="text-xl font-medium">In Commerical <br/>Spaces</h1> </div>
+    <div className="w-full"><h1 className="text-3xl font-bold primary-color">2 Million <br/>Square foot</h1><h1 className="text-xl font-medium">In Commerical <br/>Spaces</h1> </div>
   </div>
   <div className="w-3/5 flex-auto pl-20 pr-20 border-l-2">
     <div className="w-full">
-      <p className="text-[16px] font-normal leading-loose">Since 1995, GTP has been building some of the most recognized buildings in South India. Our signature DOME, 
+      <p className="text-[16px] leading-loose opacity-70">Since 1995, GTP has been building some of the most recognized buildings in South India. Our signature DOME, 
       has been copied by many - which we think is the best compliment - over the last 2 decades.</p>
      </div>
   </div>
@@ -56,7 +56,7 @@ const AboutUs = () => {
 </div>
 
 <div className="w-full pt-20 pb-20">
-  <h2 className="text-2xl text-center font-bold primary-color">2 Million Square foot</h2>
+  <h2 className="text-4xl text-center font-bold primary-color">2 Million Square foot</h2>
   <p className="w-3/5 mx-auto text-center font-normal">Since 1995, GTP has been building some of the most recognized buildings in South India. Our signature DOME, has been copied by many - which we think 
   is the best compliment - over the last 2 decades.</p>
   <Image height={600} width={1230}
@@ -68,7 +68,7 @@ const AboutUs = () => {
  
 <div className="flex flex-wrap pt-6  pr-8 md:pt-10">
   <div className="w-1/12 flex-auto">
-    <div className="w-full"> <h1 className="mb-3 text-2xl font-bold primary-color">Other <br></br>Projects</h1></div>
+    <div className="w-full"> <h1 className="mb-3 text-4xl font-bold primary-color">Other <br></br>Projects</h1></div>
   </div>
   <div className="w-1/4 flex-auto px-4">
     <div className="w-full"> 
@@ -76,7 +76,7 @@ const AboutUs = () => {
   src="/images/GTP_Project_6.jpg"
   
   alt="..." />
-   <p className="text-center font-normal pt-4">BOSCH Bengaluru</p>
+   <p className="text-center pt-4">BOSCH Bengaluru</p>
 
       </div>
   </div>
@@ -86,7 +86,7 @@ const AboutUs = () => {
   src="/images/GTP_Project_7.jpg"
   
   alt="..." />
-<p className="text-center font-normal pt-4">BOSCH Bengaluru</p>
+<p className="text-center pt-4">BOSCH Bengaluru</p>
 
       </div>
   </div>
@@ -96,7 +96,7 @@ const AboutUs = () => {
   src="/images/GTP_Project_8.jpg"
   
   alt="..." />
-   <p className="text-center font-normal pt-4">BOSCH Bengaluru</p>
+   <p className="text-center  pt-4">BOSCH Bengaluru</p>
 
       </div>
   </div>

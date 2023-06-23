@@ -97,16 +97,16 @@ export default function Home() {
               <p className="w-full md:w-3/5">In Commercial Spaces</p>
             </div>
             <div className={`${styles["card"]} pl-1 md:pl-0`}>
-            <h2 className="w-full md:w-3/5">
+            <h2 className="w-full md:w-3/5 text-4xl">
                 03
                 <br />
                 Decades{" "}
               </h2>
-              <p className="w-full md:w-3/5">Of trusted & reliable delivery</p>
+              <p className="w-full md:w-3/5 text-lg text-extrabold">Of trusted & reliable delivery</p>
             </div>
           </div>
           <div className="flex flex-col">
-            <p className="text-sm font-normal leading-loose">
+            <p className="text-[17px] pb-10 opacity-50">
               Since 1995, GTP has been building some of the most recognized
               buildings in South India. Our signature DOME, has been copied by
               many - which we think is the best compliment - over the last 2
@@ -122,17 +122,17 @@ export default function Home() {
       </div>
       <div className={`${styles["bottom-container"]} p-16  `}>
         <div className="flex flex-col gap-4">
-          <h1 className="text-5xl font-semibold not-italic text-left text-white">
+          <h1 className="text-4xl font-semibold not-italic text-left text-white">
             Concern for Community
           </h1>
-          <p className="text-base font-normal not-italic text-left text-white  w-1/2">
+          <p className="text-[18px] font-normal not-italic text-left text-white pt-5 pb-5 w-3/5">
             We focus on specific societal issues, including the environment,
             community, economic development, education, health and culture.
             Satish Chandra - Chairman
           </p>
         </div>
         <div className="flex mt-4">
-          <button className="bg-[#FFFFFF] text-[#30abb7] p-2">
+          <button className="bg-[#FFFFFF] text-[#30abb7] text-lg pt-4 pb-4">
             OUR CSR INITIATIVES →
           </button>
         </div>

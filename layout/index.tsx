@@ -38,7 +38,7 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
             We build <br />
             tomorrow’s spaces for work & living.
           </span>
-          <span className="text-[#a7a4a4] text-xs md:text-base space-x-2">
+          <span className="text-[#a7a4a4] text-[18px] md:text-lg md:text-bold space-x-2">
             {/* TODO: Here change the links to where you want it to go, i have just given /project and /contact-us just to make sure its working */}
             <Link
               href={"/commerical"}
@@ -125,7 +125,7 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
                   <Image
                     src="/images/instra.png"
                     className="w-12 p-2"
-                    height={200}
+                    height={100}
                     width={200}
                     alt="..."
                   />
