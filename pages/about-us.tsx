@@ -62,7 +62,7 @@ His vision has opened up doors to numerous sectors such as healthcare, software 
 </div>
 <div className="w-full pt-20 pb-20"><Image
   src="/images/GTP_About-Us_2.jpg" height={500} width={1230}
-  className="w-full"
+  className="w-full scale-110"
   alt="..." />
 </div>
 <div className="flex flex-wrap px-20 pt-4">

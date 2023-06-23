@@ -34,7 +34,7 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
           />
         </div>
         <div className="flex flex-col">
-          <span className="text-xs font-semibold md:text-lg">
+          <span className="text-4xl font-semibold md:text-3xl">
             We build <br />
             tomorrow’s spaces for work & living.
           </span>
@@ -73,7 +73,7 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
         </div>
         <Navigation show={open} onClose={() => setOpen(false)} />
       </header>
-      <main className={`${poppins.className} flex flex-col px-7 md:px-14`}>
+      <main className={`${poppins.className} flex flex-col px-7 md:px-14 overflow-hidden`}>
         {children}
       </main>
       <footer className="footer-wrap px-14 pt-14">
@@ -82,33 +82,34 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
             <Image src="/g-logo.webp" width={200} height={200} alt="logo" />
           </div>
           <div className="flex flex-wrap footer-dtl">
-            <div className="w-full md:h-96 md:w-3/12">
+            <div className="w-full md:h-96 md:w-[30%]">
               <div className="py-10 text-white pl-14">
-                <h5>INDIA</h5>
-                <p>01, Richmond Town, Bengaluru </p>
+                <h5 className="opacity-80">INDIA</h5>
+                <p className="text-sm opacity-80">01, Richmond Town, Bengaluru </p>
               </div>
             </div>
-            <div className="footer-menu w-full pt-10 pl-10 text-white h-96 md:w-1/4 opacity-60">
-              <h5>PRODUCTS</h5> <p className="pt-4 text-white">TECHPARKS</p>
-              <p><a href="/Think-Campus1">Think Campus 01</a></p>
-              <p><a href="/Think-Campus2">Think Campus 02</a></p>
-              <p><a href="/Bosch-coimbatore">BOSCH Coimbatore</a></p>
-              <p><a href="/Bosch-bengalore">BOSCH Bengaluru</a></p>
-              <p className="pt-4 text-white text-[16px]"><a href="/commerical">COMMERCIAL SPACE</a></p>
-              <p className="text-[16px]">GTP Shantinagar</p>
-              <p className="pt-4 text-white">RESIDENTIAL</p>
-              <p><a href="/Global-Heights">Global Heights</a></p>
-              <p><a href="/Global-Palmtrees">Satko Palmtrees</a></p>
+            <div className="footer-menu w-full pt-10 pl-10 text-white h-96 md:w-[26%] opacity-60">
+              <h5>PRODUCTS</h5> <p className="text-sm pt-4 text-white">TECHPARKS</p>
+              <p className="text-sm"><a href="/Think-Campus1">Think Campus 01</a></p>
+              <p className="text-sm"><a href="/Think-Campus2">Think Campus 02</a></p>
+              <p className="text-sm"><a href="/Bosch-coimbatore">BOSCH Coimbatore</a></p>
+              <p className="text-sm"><a href="/Bosch-bengalore">BOSCH Bengaluru</a></p>
+              <p className="pt-4 text-white text-sm"><a href="/commerical">COMMERCIAL SPACE</a></p>
+              <p className="text-sm">GTP Shantinagar</p>
+              <p className="pt-4 text-sm text-white">RESIDENTIAL</p>
+              <p className="text-sm"><a href="/Global-Heights">Global Heights</a></p>
+              <p className="text-sm"><a href="/Global-Palmtrees">Satko Palmtrees</a></p>
             </div>
-            <div className="footer-menu w-full pt-10 text-white md:h-96 md:w-1/4 opacity-60">
-              <h5>ABOUT US</h5> <p className="pt-4 text-grey"><a href="/about-us">About GTP</a></p>
-              <p><a href="/Leadership">People</a></p>
-              <p className="pt-4 text-white text-[18px]">
+            <div className="footer-menu w-full pt-10 text-white md:h-96 md:w-[30%] opacity-60">
+              <h5>ABOUT US</h5> <p className="pt-4 text-grey text-sm"><a href="/about-us">About GTP</a></p>
+              <p className="text-sm"><a href="/Leadership">People</a></p>
+             
+              <p className="pt-4 text-sm text-white text-[18px]">
                 Corporate Social Responsibility
               </p>
-              <p><a href="/contact-us">Contact Us</a></p>
+              <p className="text-sm"><a href="/contact-us">Contact Us</a></p>
             </div>
-            <div className="footer-menu w-full pt-8 text-white md:h-96 md:w-1/4">
+            <div className="footer-menu w-full pt-8 text-white md:h-96 md:w-[14%]">
               <h5 className="opacity-60">FOLLOW US ON</h5>
               <div className="flex">
                 <a href="#" className="fa fa-facebook">
