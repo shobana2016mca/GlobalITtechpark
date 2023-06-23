@@ -93,16 +93,16 @@ export default function Home() {
         >
           <div className={`${styles["grid"]}`}>
             <div className={styles["card"]}>
-              <h2 className="w-full md:w-3/5">2 Million Square Foot </h2>
-              <p className="w-full md:w-3/5">In Commercial Spaces</p>
+              <h2 className="w-full md:w-3/4">2 Million Square Foot </h2>
+              <p className="w-full md:w-3/4">In Commercial Spaces</p>
             </div>
             <div className={`${styles["card"]} pl-1 md:pl-0`}>
-            <h2 className="w-full md:w-3/5 text-4xl">
+            <h2 className="w-full md:w-3/4 text-4xl">
                 03
                 <br />
                 Decades{" "}
               </h2>
-              <p className="w-full md:w-3/5 text-lg text-extrabold">Of trusted & reliable delivery</p>
+              <p className="w-full md:w-3/4 text-lg text-extrabold">Of trusted & reliable delivery</p>
             </div>
           </div>
           <div className="flex flex-col">
@@ -114,8 +114,8 @@ export default function Home() {
             </p>
           </div>
           <div>
-            <button className="bg-[#30abb7] text-white p-2">
-              MORE ABOUT US →
+            <button className="bg-[#30abb7] text-white p-2 font-semibold">
+              MORE ABOUT US <span className="ml-4"> →</span>
             </button>
           </div>
         </div>
@@ -131,9 +131,9 @@ export default function Home() {
             Satish Chandra - Chairman
           </p>
         </div>
-        <div className="flex mt-4">
-          <button className="bg-[#FFFFFF] text-[#30abb7] text-lg pt-4 pb-4">
-            OUR CSR INITIATIVES →
+        <div className="flex mt-4 font-semibold">
+          <button className="bg-[#FFFFFF] text-[#30abb7] font-semibold p-4">
+            OUR CSR INITIATIVES <span className="ml-4"> →</span>
           </button>
         </div>
       </div>

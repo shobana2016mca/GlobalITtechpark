@@ -23,7 +23,7 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
 
   return (
     <React.Fragment>
-      <header className="relative flex items-center justify-between py-2 px-7 md:py-4 md:px-14">
+      <header className="relative flex items-center justify-between py-12 px-7 md:py-12 md:px-14">
         <div>
           <Image
             src="/h-logo.webp"
@@ -82,13 +82,13 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
             <Image src="/g-logo.webp" width={200} height={200} alt="logo" />
           </div>
           <div className="flex flex-wrap footer-dtl">
-            <div className="w-full md:h-96 md:w-[30%]">
+            <div className="w-full md:h-92 md:w-[30%]">
               <div className="py-10 text-white pl-14">
                 <h5 className="opacity-80">INDIA</h5>
                 <p className="text-sm opacity-80">01, Richmond Town, Bengaluru </p>
               </div>
             </div>
-            <div className="footer-menu w-full pt-10 pl-10 text-white h-96 md:w-[26%] opacity-60">
+            <div className="footer-menu w-full pt-10 pl-10 text-white h-92 md:w-[26%] opacity-60">
               <h5>PRODUCTS</h5> <p className="text-sm pt-4 text-white">TECHPARKS</p>
               <p className="text-sm"><a href="/Think-Campus1">Think Campus 01</a></p>
               <p className="text-sm"><a href="/Think-Campus2">Think Campus 02</a></p>
@@ -100,7 +100,7 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
               <p className="text-sm"><a href="/Global-Heights">Global Heights</a></p>
               <p className="text-sm"><a href="/Global-Palmtrees">Satko Palmtrees</a></p>
             </div>
-            <div className="footer-menu w-full pt-10 text-white md:h-96 md:w-[30%] opacity-60">
+            <div className="footer-menu w-full pt-10 text-white md:h-92 md:w-[30%] opacity-60">
               <h5>ABOUT US</h5> <p className="pt-4 text-grey text-sm"><a href="/about-us">About GTP</a></p>
               <p className="text-sm"><a href="/Leadership">People</a></p>
              
@@ -109,9 +109,9 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
               </p>
               <p className="text-sm"><a href="/contact-us">Contact Us</a></p>
             </div>
-            <div className="footer-menu w-full pt-8 text-white md:h-96 md:w-[14%]">
+            <div className="footer-menu w-full pt-8 text-white md:h-92 md:w-[14%]">
               <h5 className="opacity-60">FOLLOW US ON</h5>
-              <div className="flex">
+              <div className="flex pt-2">
                 <a href="#" className="fa fa-facebook">
                   <Image
                     src="/images/fb.png"
@@ -133,9 +133,9 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
               </div>
             </div>
           </div>
-          <div className="flex justify-between px-14 opacity-60">
-            <p className="text-white">All rights reserved </p>
-            <p className="text-white">Digital Experience: MediaJenie</p>
+          <div className="flex justify-between px-14 pt-4 opacity-60">
+            <p className="text-white text-sm">All rights reserved </p>
+            <p className="text-white text-sm">Digital Experience: MediaJenie</p>
           </div>
         </div>
       </footer>

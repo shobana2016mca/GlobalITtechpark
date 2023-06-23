@@ -21,11 +21,11 @@ const AboutUs = () => {
 </div>
 <div className="flex flex-wrap p-20 md:p-20">
   <div className="w-1/5 flex-auto">
-    <div className="w-full"><h1 className="text-3xl font-bold primary-color">2 Million <br/>Square foot</h1><h1 className="text-xl font-medium">In Commerical <br/>Spaces</h1> </div>
+    <div className="w-full"><h1 className="text-3xl font-bold primary-color">2 Million <br/>Square foot</h1><h1 className="text-2xl font-medium">In Commerical <br/>Spaces</h1> </div>
   </div>
   <div className="w-3/5 flex-auto pl-20 pr-20 border-l-2">
     <div className="w-full">
-      <p className="text-[16px] leading-loose opacity-70">Since 1995, GTP has been building some of the most recognized buildings in South India. Our signature DOME, 
+      <p className="text-[18px]  opacity-70">Since 1995, GTP has been building some of the most recognized buildings in South India. Our signature DOME, 
       has been copied by many - which we think is the best compliment - over the last 2 decades.</p>
      </div>
   </div>
