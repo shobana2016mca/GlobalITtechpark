@@ -25,13 +25,13 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
     <React.Fragment>
       <header className="relative flex items-center justify-between px-3 py-4 md:py-12 md:px-14">
         <div className="mr-2">
-       <a href="./">  <Image
+       <link href="./">  <Image
             src="/h-logo.webp"
             width={200}
             height={200}
             alt="logo"
             className="md:w-[200px] w-[100px] "
-          /></a>
+          /></link>
         </div>
         <div className="flex flex-col">
           <span className="text-sm font-semibold lg:text-4xl md:text-3xl">
