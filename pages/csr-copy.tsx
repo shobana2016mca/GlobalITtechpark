@@ -3,7 +3,6 @@ import 'swiper/css';
 import styles from "@/styles/home.module.scss";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Image from "next/image";
-import Link from "next/link";
 
 
 const Csr = () => {
@@ -57,7 +56,7 @@ We are known for taking risks whilst creating an encouraging environment for pro
       </div>
   </div>
   <div className="w-2/4 flex-auto pl-10 pt-5">
-    <div className="w-full"><p className=" text-sm md:text-[16px] leading-loose opacity-50">Satish P Chandra is the inspirational Chairman and Managing Director of Global Tech Park, a rapidly expanding provider of infrastructure solutions in India. He was instrumental in creating Bengaluru's iconic commercial site Think Campus in Electronic City - fondly known as the Dome.
+    <div className="w-full"><p className="text-sm md:text-[16px] leading-loose opacity-50">Satish P Chandra is the inspirational Chairman and Managing Director of Global Tech Park, a rapidly expanding provider of infrastructure solutions in India. He was instrumental in creating Bengaluru iconic commercial site Think Campus in Electronic City - fondly known as the Dome.
 
 His vision has opened up doors to numerous sectors such as healthcare, software technology, solar power and logistic services, earning him prestigious awards like Businessman of the Year from BSICC & Golden Peacock Eco-Innovative Award by GIIS Balestier. Moreover, his commitment towards Corporate Social Responsibility (CSR) sets him apart from others.</p>
       </div>
@@ -72,15 +71,13 @@ His vision has opened up doors to numerous sectors such as healthcare, software 
  
   <div className="w-2/5 flex-auto pr-4">
     <div className="w-full">
-    <Image
-  src="/images/csr.png"
-  
-  alt="..." />
+    <Image src="/images/csr.png" alt="..." />
 
       </div>
   </div>
   <div className="md:w-6/12 flex-auto pl-10 pt-5 md:pl-10">
-    <div className="w-full"><p className=" text-sm md:text-[16px] leading-loose opacity-50">Satish P Chandra is the inspirational Chairman and Managing Director of Global Tech Park, a rapidly expanding provider of infrastructure solutions in India. He was instrumental in creating Bengaluru's iconic commercial site Think Campus in Electronic City - fondly known as the Dome.
+    <div className="w-full"><p className="text-sm md:text-[16px] leading-loose opacity-50">Satish P Chandra 
+    is the inspirational Chairman and Managing Director of Global Tech Park, a rapidly expanding provider of infrastructure solutions in India. He was instrumental in creating Bengaluru iconic commercial site Think Campus in Electronic City - fondly known as the Dome.
 
 His vision has opened up doors to numerous sectors such as healthcare, software technology, solar power and logistic services, earning him prestigious awards like Businessman of the Year from BSICC & Golden Peacock Eco-Innovative Award by GIIS Balestier. Moreover, his commitment towards Corporate Social Responsibility (CSR) sets him apart from others.</p>
       </div>
@@ -88,9 +85,11 @@ His vision has opened up doors to numerous sectors such as healthcare, software 
 </div>
 <div className="flex flex-wrap px-20 pt-20">
 <div className="w-2/5 md:w-2/5 flex-auto  pt-5">
-    <div className="w-full"><p className=" text-sm md:text-[16px] leading-loose opacity-50">Satish P Chandra is the inspirational Chairman and Managing Director of Global Tech Park, a rapidly expanding provider of infrastructure solutions in India. He was instrumental in creating Bengaluru iconic commercial site Think Campus in Electronic City - fondly known as the Dome.
+    <div className="w-full"><p className="text-sm md:text-[16px] leading-loose opacity-50">Satish P Chandra is the inspirational Chairman and Managing Director of Global Tech Park, a rapidly expanding provider of infrastructure solutions in India. He was instrumental in creating Bengaluru iconic commercial site Think Campus in Electronic City - fondly known as the Dome.
 
-His vision has opened up doors to numerous sectors such as healthcare, software technology, solar power and logistic services, earning him prestigious awards like Businessman of the Year from BSICC & Golden Peacock Eco-Innovative Award by GIIS Balestier. Moreover, his commitment towards Corporate Social Responsibility (CSR) sets him apart from others.</p>
+His vision has opened up doors to numerous sectors such as healthcare, 
+software technology, solar power and logistic services, earning him prestigious 
+awards like Businessman of the Year from BSICC & Golden Peacock Eco-Innovative Award by GIIS Balestier. Moreover, his commitment towards Corporate Social Responsibility (CSR) sets him apart from others.</p>
       </div>
   </div>
   <div className="w-2/5 flex-auto pr-4 pl-10">
