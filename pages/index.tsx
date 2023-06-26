@@ -11,6 +11,7 @@ import { Autoplay, Pagination } from "swiper";
 import styles from "@/styles/home.module.scss";
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -51,7 +52,7 @@ export default function Home() {
             </div>
             <div className={`${styles["controls"]} pt-8`}>
               <button className="bg-[#1087d2] text-white ">
-              <Link href="/project">VIEW PROJECT <span className="ml-4"> →</span></Link>
+                VIEW PROJECT <span className="ml-4"> →</span>
               </button>
             </div>
           </div>
@@ -64,8 +65,8 @@ export default function Home() {
               <p>Bangalore | 1.2 Million Square-Foot | TCS</p>
             </div>
             <div className={`${styles["controls"]} pt-8`}>
-            <button className="bg-[#1087d2] text-white ">
-              <Link href="/project">VIEW PROJECT <span className="ml-4"> →</span></Link>
+              <button className="bg-[#1087d2] text-white p-2">
+                VIEW PROJECT →
               </button>
             </div>
           </div>
@@ -78,8 +79,8 @@ export default function Home() {
               <p>Bangalore | 1.2 Million Square-Foot | TCS</p>
             </div>
             <div className={`${styles["controls"]} pt-8`}>
-            <button className="bg-[#1087d2] text-white ">
-              <a href="/project">VIEW PROJECT <span className="ml-4"> →</span></a>
+              <button className="bg-[#1087d2] text-white ">
+                VIEW PROJECT <span className="ml-4"> →</span>
               </button>
             </div>
           </div>
@@ -116,7 +117,7 @@ export default function Home() {
           </div>
           <div>
             <button className="bg-[#30abb7] text-white p-2 font-semibold">
-             <link href="/about-us"> MORE ABOUT US <span className="ml-4"> →</span></link>
+              MORE ABOUT US <span className="ml-4"> →</span>
             </button>
           </div>
         </div>
@@ -134,7 +135,7 @@ export default function Home() {
         </div>
         <div className="flex mt-4 font-semibold">
           <button className="bg-[#FFFFFF] text-[#30abb7] font-semibold p-4">
-          <link href="/csr-copy">  OUR CSR INITIATIVES <span className="ml-4"> →</span></link>
+            OUR CSR INITIATIVES <span className="ml-4"> →</span>
           </button>
         </div>
       </div>

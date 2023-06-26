@@ -25,17 +25,19 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
     <React.Fragment>
       <header className="relative flex items-center justify-between px-3 py-4 md:py-12 md:px-14">
         <div className="mr-2">
-       <link href="./">  <Image
+        <Link href="/">  
+       <Image
             src="/h-logo.webp"
             width={200}
             height={200}
             alt="logo"
             className="md:w-[200px] w-[100px] "
-          /></link>
+          />
+</Link>
         </div>
         <div className="flex flex-col">
           <span className="text-sm font-semibold lg:text-4xl md:text-3xl">
-            We build <br/>
+            We build <br />
             tomorrow’s spaces for work & living.
           </span>
           <span className="text-[#a7a4a4] text-[10px] lg:text-[18px] md:text-lg md:text-bold space-x-2">
@@ -101,7 +103,7 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
                 <a href="/Bosch-coimbatore">BOSCH Coimbatore</a>
               </p>
               <p className="text-sm">
-                <a href="/Bosch-bangalore">BOSCH Bengaluru</a>
+                <a href="/Bosch-bengalore">BOSCH Bengaluru</a>
               </p>
               <p className="pt-4 text-sm text-white">
                 <a href="/commerical">COMMERCIAL SPACE</a>
