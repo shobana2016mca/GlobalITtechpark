@@ -36,9 +36,9 @@ export default function Home() {
               <p>Bangalore | 1.2 Million Square-Foot | TCS</p>
             </div>
             <div className={`${styles["controls"]} pt-8`}>
-            <button className="bg-[#1087d2] text-white ">
-              <Link href="/project">VIEW PROJECT <span className="ml-4"> →</span></Link>
-              </button>
+            <Link href="/project"> <button className="bg-[#1087d2] text-white ">
+             VIEW PROJECT <span className="ml-4"> →</span>
+              </button></Link>
             </div>
           </div>
         </SwiperSlide>
