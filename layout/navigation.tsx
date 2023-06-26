@@ -120,26 +120,31 @@ const menuItems = [
           {
             id: 1,
             title: "Think Campus 1",
-            url: "/think-campus1",
+            url: "/think-Campus1",
           },
           {
             id: 2,
             title: "Bosch Adugodi",
-            url: "/bosch-adugodi",
+            url: "/Bosch-Adugodi",
           },
           {
             id: 3,
             title: "Bosch Coimbatore",
-            url: "/bosch-coimbatore",
+            url: "/Bosch-coimbatore",
           },
           {
             id: 4,
+            title: "Bosch Bangalore",
+            url: "/Bosch-bangalore",
+          },
+          {
+            id: 5,
             title: "Global Tech Park Richmond",
             url: "/Global-Heights",
           },
 
           {
-            id: 5,
+            id: 6,
             title: "Think Campus 2",
             url: "think-campus2",
           },
@@ -148,7 +153,7 @@ const menuItems = [
       {
         id: 2,
         title: "Residential Projects",
-        url: "/residential-projects",
+        url: "/Residential-projects",
         sublinks: [
           {
             id: 1,
@@ -158,7 +163,7 @@ const menuItems = [
           {
             id: 2,
             title: "Palm Trees",
-            url: "#palm-trees",
+            url: "/Satko palmtrees",
           },
         ],
       },
@@ -170,7 +175,7 @@ const menuItems = [
           {
             id: 1,
             title: "Solar Park Tumkur",
-            url: "#solar-park-tumkur",
+            url: "/Satko palmtrees",
           },
         ],
       },
