@@ -51,8 +51,8 @@ export default function Home() {
               <p>Bangalore | 1.2 Million Square-Foot | TCS</p>
             </div>
             <div className={`${styles["controls"]} pt-8`}>
-              <button className="bg-[#1087d2] text-white ">
-                VIEW PROJECT <span className="ml-4"> →</span>
+            <button className="bg-[#1087d2] text-white ">
+              <Link href="/project">VIEW PROJECT <span className="ml-4"> →</span></Link>
               </button>
             </div>
           </div>
@@ -65,8 +65,8 @@ export default function Home() {
               <p>Bangalore | 1.2 Million Square-Foot | TCS</p>
             </div>
             <div className={`${styles["controls"]} pt-8`}>
-              <button className="bg-[#1087d2] text-white p-2">
-                VIEW PROJECT →
+            <button className="bg-[#1087d2] text-white ">
+              <Link href="/project">VIEW PROJECT <span className="ml-4"> →</span></Link>
               </button>
             </div>
           </div>
@@ -79,8 +79,8 @@ export default function Home() {
               <p>Bangalore | 1.2 Million Square-Foot | TCS</p>
             </div>
             <div className={`${styles["controls"]} pt-8`}>
-              <button className="bg-[#1087d2] text-white ">
-                VIEW PROJECT <span className="ml-4"> →</span>
+            <button className="bg-[#1087d2] text-white ">
+              <Link href="/project">VIEW PROJECT <span className="ml-4"> →</span></Link>
               </button>
             </div>
           </div>
@@ -117,7 +117,7 @@ export default function Home() {
           </div>
           <div>
             <button className="bg-[#30abb7] text-white p-2 font-semibold">
-              MORE ABOUT US <span className="ml-4"> →</span>
+            <Link href="/about-us">   MORE ABOUT US <span className="ml-4"> →</span></Link>
             </button>
           </div>
         </div>
@@ -135,7 +135,7 @@ export default function Home() {
         </div>
         <div className="flex mt-4 font-semibold">
           <button className="bg-[#FFFFFF] text-[#30abb7] font-semibold p-4">
-            OUR CSR INITIATIVES <span className="ml-4"> →</span>
+          <Link href="/about-us">     OUR CSR INITIATIVES <span className="ml-4"> →</span></Link>
           </button>
         </div>
       </div>
