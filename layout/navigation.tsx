@@ -163,7 +163,7 @@ const menuItems = [
           {
             id: 2,
             title: "Palm Trees",
-            url: "/sato-palmtrees",
+            url: "/satko-palmtrees",
           },
         ],
       },
