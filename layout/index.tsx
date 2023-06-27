@@ -49,8 +49,8 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
             </Link>
             <span>|</span>
             <Link
-              href={"/Residental"}
-              className={activeLink("/Residental") ? "text-[#30abb7]" : ""}>
+              href={"/Residential"}
+              className={activeLink("/Residential") ? "text-[#30abb7]" : ""}>
               Residential Buildings
             </Link>
             <span>|</span>
