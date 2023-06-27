@@ -158,7 +158,7 @@ const menuItems = [
           {
             id: 1,
             title: "Global Heights",
-            url: "/Global-heights",
+            url: "/Global-Heights",
           },
           {
             id: 2,
