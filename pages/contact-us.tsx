@@ -43,7 +43,7 @@ const ContactUs = () => {
               +91 98450 12345
             </p>
             <p className="pt-2 text-sm font-medium leading-loose">
-              Call: email:
+              Email:
               <br />
               info@globaltechpark.in
             </p>
@@ -103,7 +103,7 @@ const ContactUs = () => {
       <div className="flex flex-col flex-wrap md:flex-row md:px-20">
         <div className="flex-auto text-center md:w-1/5">
           <div className="w-full text-xl font-bold primary-color">
-            Write to Us{" "}
+            We are at{" "}
           </div>
         </div>
         <div className="flex-auto pt-2 md:w-4/5">

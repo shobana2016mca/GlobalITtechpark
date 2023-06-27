@@ -120,7 +120,7 @@ const menuItems = [
           {
             id: 1,
             title: "Think Campus 1",
-            url: "/think-Campus1",
+            url: "/Think-Campus1",
           },
           {
             id: 2,
@@ -146,7 +146,7 @@ const menuItems = [
           {
             id: 6,
             title: "Think Campus 2",
-            url: "Think-Campus2",
+            url: "/Think-Campus2",
           },
         ],
       },
@@ -158,7 +158,7 @@ const menuItems = [
           {
             id: 1,
             title: "Global Heights",
-            url: "Global-heights",
+            url: "/Global-heights",
           },
           {
             id: 2,

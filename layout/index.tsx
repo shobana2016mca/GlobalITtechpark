@@ -106,7 +106,7 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
                 <a href="/Bosch-bangalore">BOSCH Bengaluru</a>
               </p>
               <p className="pt-4 text-sm text-white">
-                <a href="/commericial">COMMERCIAL SPACE</a>
+                <a href="/commercial">COMMERCIAL SPACE</a>
               </p>
               <p className="text-sm">GTP Shantinagar</p>
               <p className="pt-4 text-sm text-white">RESIDENTIAL</p>
@@ -114,7 +114,7 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
                 <a href="/Global-Heights">Global Heights</a>
               </p>
               <p className="text-sm">
-                <a href="/satlko-palmtrees">Satko Palmtrees</a>
+                <a href="/satko-palmtrees">Satko Palmtrees</a>
               </p>
             </div>
             <div className="footer-menu w-full pt-10 text-white md:h-92 md:w-[30%] opacity-60">
