@@ -153,17 +153,17 @@ const menuItems = [
       {
         id: 2,
         title: "Residential Projects",
-        url: "/Residential-projects",
+        url: "/Residential",
         sublinks: [
           {
             id: 1,
             title: "Global Heights",
-            url: "#global-heights",
+            url: "Global-heights",
           },
           {
             id: 2,
             title: "Palm Trees",
-            url: "/Satko palmtrees",
+            url: "/satko-palmtrees",
           },
         ],
       },
@@ -175,7 +175,7 @@ const menuItems = [
           {
             id: 1,
             title: "Solar Park Tumkur",
-            url: "/Satko palmtrees",
+            url: "/solar-park",
           },
         ],
       },
