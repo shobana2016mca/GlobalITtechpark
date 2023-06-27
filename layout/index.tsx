@@ -43,8 +43,8 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
           <span className="text-[#a7a4a4] text-[10px] lg:text-[18px] md:text-lg md:text-bold space-x-2">
             {/* TODO: Here change the links to where you want it to go, i have just given /project and /contact-us just to make sure its working */}
             <Link
-              href={"/commerical"}
-              className={activeLink("/commerical") ? "text-[#30abb7]" : ""}>
+              href={"/commercial"}
+              className={activeLink("/commercial") ? "text-[#30abb7]" : ""}>
               Commercial Buildings
             </Link>
             <span>|</span>
@@ -114,7 +114,7 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
                 <a href="/Global-Heights">Global Heights</a>
               </p>
               <p className="text-sm">
-                <a href="/Global-Palmtrees">Satko Palmtrees</a>
+                <a href="/satlko-Palmtrees">Satko Palmtrees</a>
               </p>
             </div>
             <div className="footer-menu w-full pt-10 text-white md:h-92 md:w-[30%] opacity-60">
