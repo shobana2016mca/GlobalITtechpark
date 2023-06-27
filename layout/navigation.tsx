@@ -13,7 +13,7 @@ const Navigation = ({ onClose, show }: NavigationProps) => {
   return (
     <React.Fragment>
       {show && (
-        <nav className={`${css["container"]} w-3/4 md:w-1/4 p-5 animate fadeInRight one`}>
+        <nav className={`${css["container"]} w-3/4 md:w-1/4 p-5 sidebar-wrap animate fadeInRight one`}>
           <span className={css["close-icon"]} onClick={onClose}>
             <CloseIcon height={30} width={30} />
           </span>
@@ -146,7 +146,7 @@ const menuItems = [
           {
             id: 6,
             title: "Think Campus 2",
-            url: "think-campus2",
+            url: "Think-Campus2",
           },
         ],
       },

@@ -135,7 +135,7 @@ export default function Home() {
         </div>
         <div className="flex mt-4 font-semibold">
           <button className="bg-[#FFFFFF] text-[#30abb7] font-semibold p-4">
-          <Link href="/about-us">     OUR CSR INITIATIVES <span className="ml-4"> →</span></Link>
+          <Link href="/csr-copy">     OUR CSR INITIATIVES <span className="ml-4"> →</span></Link>
           </button>
         </div>
       </div>

@@ -158,3 +158,12 @@ details[open] > summary:before {
   -webkit-animation-name: fadeInRight;
   animation-name: fadeInRight;
 }
+.sidebar-wrap .menu > li{
+  margin: 10px 0;
+}
+.sidebar-wrap .menu li details, .sidebar-wrap .menu li details ul{
+  margin-top: 10px;
+}
+.sidebar-wrap .menu li:nth-child(2) li summary:before{
+  display: none;
+}

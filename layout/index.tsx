@@ -79,7 +79,7 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
       <footer className="px-3 footer-wrap md:px-14 pt-14">
         <div className="px-5 md:px-10 footer-inner py-14">
           <div className="footer-logo">
-            <Image src="/g-logo.webp" width={200} height={200} alt="logo" />
+          <Link href="/"><Image src="/g-logo.webp" width={200} height={200} alt="logo" /></Link>
           </div>
           <div className="grid grid-cols-2 gap-8 pt-10 lg:flex lg:flex-wrap lg:gap-0">
             <div className="w-full md:h-92 md:w-[30%]">
