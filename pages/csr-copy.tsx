@@ -49,7 +49,8 @@ We are known for taking risks whilst creating an encouraging environment for pro
   
   <div className="w-2/4 flex-auto pr-4">
     <div className="w-full"><Image
-  src="/images/csr.png"
+  src="/images/csr.png"  height={800}
+  width={800}
   
   alt="..." />
 
@@ -62,16 +63,22 @@ His vision has opened up doors to numerous sectors such as healthcare, software 
       </div>
   </div>
 </div>
-<div className="w-full pt-20 pb-20"><Image
-  src="/images/GTP_About-Us_2.jpg"
-  className="w-full"
-  alt="..." />
-</div>
+<div className="w-full pt-20 pb-20">
+        <Image
+          src="/images/GTP_About-Us_2.jpg"
+          height={500}
+          width={1230}
+          className="w-full scale-110"
+          alt="..."
+        />
+      </div>
+
 <div className="flex flex-wrap px-20 pt-4">
  
   <div className="w-2/5 flex-auto pr-4">
     <div className="w-full">
-    <Image src="/images/csr.png" alt="..." />
+    <Image src="/images/csr.png" height={800}
+  width={800} alt="..." />
 
       </div>
   </div>
@@ -95,7 +102,8 @@ awards like Businessman of the Year from BSICC & Golden Peacock Eco-Innovative A
   <div className="w-2/5 flex-auto pr-4 pl-10">
     <div className="w-full">
     <Image
-  src="/images/csr.png"
+  src="/images/csr.png" height={800}
+  width={800}
   
   alt="..." />
 

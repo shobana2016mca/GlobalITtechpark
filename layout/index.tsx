@@ -103,7 +103,7 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
                 <a href="/Bosch-coimbatore">BOSCH Coimbatore</a>
               </p>
               <p className="text-sm">
-                <a href="/Bosch-bengalore">BOSCH Bengaluru</a>
+                <a href="/Bosch-bangalore">BOSCH Bengaluru</a>
               </p>
               <p className="pt-4 text-sm text-white">
                 <a href="/commerical">COMMERCIAL SPACE</a>
