@@ -23,7 +23,7 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
 
   return (
     <React.Fragment>
-      <header className="relative flex items-center justify-between px-3 py-4 md:py-12 md:px-14">
+      <header className="relative flex items-center justify-between px-3 py-4 md:py-08 md:px-14">
         <div className="mr-2">
         <Link href="/">  
        <Image
@@ -36,7 +36,7 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
 </Link>
         </div>
         <div className="flex flex-col">
-          <span className="text-sm font-semibold lg:text-4xl md:text-3xl">
+          <span className="text-sm font-semibold lg:text-2xl md:text-2xl">
             We build <br />
             tomorrow’s spaces for work & living.
           </span>
