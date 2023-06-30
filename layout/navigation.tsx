@@ -22,7 +22,7 @@ const Navigation = ({ onClose, show }: NavigationProps) => {
             {/* TODO: this is makking the dropdown, you change the styles. like the font size etc stuff */}
             {menuItems.map((item) =>
               item.submenu ? (
-                <li key={item.id} className="hover:text-[#00bcd4]">
+                <li key={item.id}>
                   <details>
                     <summary>
                       <Link href={item.url}>{item.title}</Link>

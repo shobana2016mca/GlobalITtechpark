@@ -167,3 +167,16 @@ details[open] > summary:before {
 .sidebar-wrap .menu li:nth-child(2) li summary:before{
   display: none;
 }
+.menu li a:hover{
+  color: #00bcd4;
+}
+.dropshadow{
+  box-shadow: 3px 3px 10px 2px rgba(48, 171, 183, .3);
+}
+.csrmenu{
+  box-shadow: 0px 3px 10px 2px rgba(0,0,0,.5);
+}
+.bannerbutton{
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,.5);
+}
+
