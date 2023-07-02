@@ -10,7 +10,7 @@ const AboutUs = () => {
         <div className={styles["content"]}>
           <h2 className="text-5xl font-semibold">THINK</h2>
           <h2 className="text-5xl font-semibold">CAMPUS</h2>
-          <p className="text-3xl font-semibold">
+          <p className="text-3xl font-semibold pt-4">
             {" "}
             Bangalore | 1.2 Million Square-Foot | TCS
           </p>
@@ -25,15 +25,14 @@ const AboutUs = () => {
           />
         </div>
       </div>
-
       <div className="flex flex-col flex-wrap p-4 pt-16 md:flex-row md:p-20">
         <div className="flex-auto md:w-1/5">
           <div className="w-full">
-            <h1 className="text-3xl font-bold primary-color">
+            <h1 className="text-2xl font-bold primary-color">
               2 Million <br />
               Square foot
             </h1>
-            <h1 className="text-2xl font-medium">
+            <h1 className="text-xl font-medium">
               In Commerical <br />
               Spaces
             </h1>{" "}
@@ -41,8 +40,8 @@ const AboutUs = () => {
         </div>
         <div className="flex-auto pt-4 md:px-20 md:pt-0 md:w-3/5 md:border-l-2">
           <div className="w-full">
-            <p className="text-[18px]  opacity-70">
-              Since 1995, GTP has been building some of the most recognized
+            <p className="text-[16px]  opacity-70">
+              Since 1995, GTP has been building some of the most re-cognized
               buildings in South India. Our signature DOME, has been copied by
               many - which we think is the best compliment - over the last 2
               decades.
@@ -51,14 +50,13 @@ const AboutUs = () => {
         </div>
         <div className="flex-auto pt-4 md:w-1/5 md:pt-0 md:pl-10 md:border-l-2">
           <div className="w-full">
-            <p className="text-xl font-medium leading-loose">
+            <p className="text-xl font-medium">
               Electronic City Bengaluru{" "}
             </p>
-            <p className="text-xl font-medium leading-loose">INDIA</p>
+            <p className="text-xl font-medium">INDIA</p>
           </div>
         </div>
       </div>
-
       <div className="w-full pt-10 pb-20">
         <Image
           src="/images/GTP_Project_2.jpg"
@@ -93,7 +91,7 @@ const AboutUs = () => {
         <h2 className="text-4xl font-bold text-center primary-color">
           2 Million Square foot
         </h2>
-        <p className="mx-auto font-normal text-center md:w-3/5">
+        <p className="mx-auto font-normal text-sm text-center md:w-3/5">
           Since 1995, GTP has been building some of the most recognized
           buildings in South India. Our signature DOME, has been copied by many
           - which we think is the best compliment - over the last 2 decades.
@@ -111,7 +109,7 @@ const AboutUs = () => {
         <div className="flex-auto md:w-1/12">
           <div className="w-full">
             {" "}
-            <h1 className="mb-3 text-4xl font-bold text-center primary-color md:text-left">
+            <h1 className="mb-3 text-2xl font-bold text-center primary-color md:text-left">
               Other <br></br>Projects
             </h1>
           </div>
@@ -124,7 +122,7 @@ const AboutUs = () => {
               src="/images/GTP_Project_6.jpg"
               alt="..."
             />
-            <p className="pt-4 text-center">BOSCH Bengaluru</p>
+            <p className="pt-4 text-left">BOSCH Bengaluru</p>
           </div>
         </div>
         <div className="flex-auto px-4 md:w-1/4">
@@ -135,7 +133,7 @@ const AboutUs = () => {
               src="/images/GTP_Project_7.jpg"
               alt="..."
             />
-            <p className="pt-4 text-center">BOSCH Bengaluru</p>
+            <p className="pt-4 text-left">BOSCH Bengaluru</p>
           </div>
         </div>
         <div className="flex-auto px-4 md:w-1/4">
@@ -146,7 +144,7 @@ const AboutUs = () => {
               src="/images/GTP_Project_8.jpg"
               alt="..."
             />
-            <p className="pt-4 text-center">BOSCH Bengaluru</p>
+            <p className="pt-4 text-left">BOSCH Bengaluru</p>
           </div>
         </div>
       </div>

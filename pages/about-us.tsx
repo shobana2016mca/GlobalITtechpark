@@ -10,7 +10,7 @@ const AboutUs = () => {
         <div className={styles["content"]}>
           <h2 className="text-4xl font-semibold">CORPORATE</h2>
           <h2 className="text-4xl font-semibold">PROFILE</h2>
-          <p> Since 2000 | India-Bangalore headquarter</p>
+          <p className="pt-4"> Since 2000 | India-Bangalore headquarter</p>
         </div>
         <div className="absolute bottom-[-32px]">
           <Image

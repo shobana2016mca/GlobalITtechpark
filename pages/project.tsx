@@ -10,7 +10,7 @@ const AboutUs = () => {
         <div className={styles["content"]}>
           <h2 className="text-5xl font-semibold">THINK</h2>
           <h2 className="text-5xl font-semibold">CAMPUS</h2>
-          <p className="text-3xl font-semibold">
+          <p className="text-3xl font-semibold pt-4">
             {" "}
             Bangalore | 1.2 Million Square-Foot | TCS
           </p>
@@ -40,8 +40,8 @@ const AboutUs = () => {
         </div>
         <div className="flex-auto pt-4 md:px-20 md:pt-0 md:w-3/5 md:border-l-2">
           <div className="w-full">
-            <p className="text-[14px]  opacity-70">
-              Since 1995, GTP has been building some of the most recognized
+            <p className="text-[16px]  opacity-70">
+              Since 1995, GTP has been building some of the most re-cognized
               buildings in South India. Our signature DOME, has been copied by
               many - which we think is the best compliment - over the last 2
               decades.
@@ -50,10 +50,10 @@ const AboutUs = () => {
         </div>
         <div className="flex-auto pt-4 md:w-1/5 md:pt-0 md:pl-10 md:border-l-2">
           <div className="w-full">
-            <p className="text-xl font-medium leading-loose">
+            <p className="text-xl font-medium">
               Electronic City Bengaluru{" "}
             </p>
-            <p className="text-xl font-medium leading-loose">INDIA</p>
+            <p className="text-xl font-medium">INDIA</p>
           </div>
         </div>
       </div>
