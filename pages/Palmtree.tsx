@@ -8,7 +8,7 @@ const AboutUs = () => {
     <React.Fragment>
       <div className={`${styles["about-container"]} p-4 md:p-20`}>
         <div className={styles["content"]}>
-          <h2 className="text-5xl font-semibold">PALMTREE</h2>
+          <h2 className="text-5xl font-semibold">PALM TREES</h2>
          
           <p className="text-3xl font-semibold pt-4">
             {" "}
