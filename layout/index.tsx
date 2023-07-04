@@ -123,10 +123,10 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
                 <a href="/about-us">About GTP</a>
               </p>
               <p className="text-sm">
-                <a href="/leadership">People</a>
+                <a href="/People">People</a>
               </p>
               <p className="pt-4 text-sm text-white text-[18px]">
-                Corporate Social Responsibility
+              <a href="/Corporate-Social-Responsibility">Corporate Social Responsibility</a>
               </p>
               <p className="text-sm">
                 <a href="/contact-us">Contact Us</a>
