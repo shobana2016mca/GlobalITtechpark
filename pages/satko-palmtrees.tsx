@@ -153,7 +153,7 @@ const AboutUs = () => {
                 alt="..." className="transition duration-150 ease-in-out hover:scale-110 hover:rotate-3"
               /></Link>
             </div>
-            <p className="pt-4 text-left"><a href="/Bosch-bangalore">BOSCH Bengaluru</a></p>
+            <p className="pt-4 text-left"><Link href="/Bosch-bangalore">BOSCH Bengaluru</Link></p>
           </div>
         </div>
         
