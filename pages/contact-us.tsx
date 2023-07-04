@@ -10,7 +10,7 @@ const ContactUs = () => {
       <div className={`${styles["about-container"]} p-4 md:p-20`}>
         <div className={styles["content"]}>
           <h2 className="text-4xl font-semibold">{`LET’S`} CONNECT</h2>
-          <h2 className="text-4xl font-semibold">TO BUILD FOR FUTURE</h2>
+          <h2 className="text-4xl font-semibold pt-4">TO BUILD FOR FUTURE</h2>
           <p> Reach Out for Any Queries</p>
         </div>
         <div className="absolute bottom-[-32px]">
