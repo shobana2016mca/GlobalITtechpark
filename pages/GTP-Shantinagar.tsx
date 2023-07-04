@@ -8,8 +8,8 @@ const AboutUs = () => {
     <React.Fragment>
       <div className={`${styles["about-container"]} p-4 md:p-20`}>
         <div className={styles["content"]}>
-          <h2 className="text-5xl font-semibold">GTP</h2>
-          <h2 className="text-5xl font-semibold">SHANTINAGAR</h2>
+          <h2 className="text-5xl font-semibold">GTP SHANTINAGAR</h2>
+       
           <p className="text-3xl font-semibold pt-4">
             {" "}
             Bangalore | 1.2 Million Square-Foot | TCS
