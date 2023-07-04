@@ -140,7 +140,7 @@ const menuItems = [
           {
             id: 5,
             title: "Global Tech Park Richmond",
-            url: "/Global-Heights",
+            url: "/Global-Tech",
           },
 
           {
@@ -163,7 +163,7 @@ const menuItems = [
           {
             id: 2,
             title: "Palm Trees",
-            url: "/satko-palmtrees",
+            url: "/Palmtrees",
           },
         ],
       },
