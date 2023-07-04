@@ -10,7 +10,7 @@ const AboutUs = () => {
         <div className={styles["content"]}>
           <h2 className="text-5xl font-semibold">Bosch Adugodi</h2>
           
-          <p className="text-3xl font-semibold pt-4">
+          <p className="text-3xl font-semibold pt-6">
             {" "}
             Bangalore | 1.2 Million Square-Foot | TCS
           </p>
