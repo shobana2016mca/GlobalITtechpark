@@ -2,6 +2,7 @@ import styles from "@/styles/home.module.scss";
 import Image from "next/image";
 import React from "react";
 import "swiper/css";
+import Link from "next/link";
 
 const AboutUs = () => {
   return (
@@ -57,29 +58,29 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <div className="w-full pt-10 pb-20">
+      <div className="w-full pt-10 pb-20 overflow-hidden ">
         <Image
           src="/images/GTP_Project_2.jpg"
-          className="w-full"
+          className="w-full transition duration-300 ease-in-out hover:scale-110"
           height={600}
           width={1230}
           alt="..."
         />
       </div>
       <div className="flex flex-wrap">
-        <div className="flex-auto w-3/6 pr-4">
+        <div className="flex-auto w-3/6 pr-4 overflow-hidden">
           <Image
             src="/images/GTP_Project_3.jpg"
-            className="w-full"
+            className="w-full transition duration-300 ease-in-out hover:scale-110"
             height={900}
             width={600}
             alt="..."
           />
         </div>
-        <div className="flex-auto w-3/6 pl-4">
+        <div className="flex-auto w-3/6 pl-4 overflow-hidden">
           <Image
             src="/images/GTP_Project_4.jpg"
-            className="w-full"
+            className="w-full transition duration-300 ease-in-out hover:scale-110"
             height={900}
             width={600}
             alt="..."
@@ -96,13 +97,14 @@ const AboutUs = () => {
           buildings in South India. Our signature DOME, has been copied by many
           - which we think is the best compliment - over the last 2 decades.
         </p>
+        <div className="overflow-hidden">
         <Image
           height={600}
           width={1230}
           src="/images/GTP_Project_5.jpg"
-          className="w-full pt-10"
+          className="w-full pt-10 transition duration-150 ease-in-out hover:scale-110"
           alt="..."
-        />
+        /></div>
       </div>
 
       <div className="flex flex-col flex-wrap space-y-4 md:flex-row md:pr-8 md:pt-10">
@@ -114,39 +116,47 @@ const AboutUs = () => {
             </h1>
           </div>
         </div>
+    
         <div className="flex-auto px-4 md:w-1/4">
           <div className="w-full">
-            <Image
-              height={200}
-              width={300}
-              src="/images/GTP_Project_6.jpg"
-              alt="..."
-            />
-            <p className="pt-4 text-left">BOSCH Bengaluru</p>
+            <div className="overflow-hidden">
+              <Image
+                height={200}
+                width={300}
+                src="/images/GTP_Project_6.jpg"
+                alt="..." className="transition duration-150 ease-in-out hover:scale-110 hover:rotate-3"
+              />
+            </div>
+            <p className="pt-4 text-left"><a href="/Bosch-bangalore">BOSCH Bengaluru</a></p>
           </div>
         </div>
         <div className="flex-auto px-4 md:w-1/4">
           <div className="w-full">
-            <Image
-              height={200}
-              width={300}
-              src="/images/GTP_Project_7.jpg"
-              alt="..."
-            />
-            <p className="pt-4 text-left">BOSCH Bengaluru</p>
+            <div className="overflow-hidden">
+              <Image
+                height={200}
+                width={300}
+                src="/images/GTP_Project_7.jpg"
+                alt="..." className="transition duration-150 ease-in-out hover:scale-110 hover:rotate-3"
+              />
+            </div>
+            <p className="pt-4 text-left"><link href="/Bosch-bangalore">BOSCH Bengaluru</link></p>
           </div>
         </div>
         <div className="flex-auto px-4 md:w-1/4">
           <div className="w-full">
-            <Image
-              height={200}
-              width={300}
-              src="/images/GTP_Project_8.jpg"
-              alt="..."
-            />
-            <p className="pt-4 text-left">BOSCH Bengaluru</p>
+            <div className="overflow-hidden">
+            <link href="/Bosch-bangalore">         <Image
+                height={200}
+                width={300}
+                src="/images/GTP_Project_8.jpg"
+                alt="..." className="transition duration-150 ease-in-out hover:scale-110 hover:rotate-3"
+              /></link>
+            </div>
+            <p className="pt-4 text-left"><link href="/Bosch-bangalore">BOSCH Bengaluru</link></p>
           </div>
         </div>
+        
       </div>
     </React.Fragment>
   );

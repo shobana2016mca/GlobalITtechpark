@@ -26,7 +26,7 @@ const Csr = () => {
 </div>
 <div className="flex flex-wrap p-20 md:p-20">
   <div className="w-1/5 flex-auto">
-    <div className="w-full"><h1 className="text-xl md:text-4xl font-bold primary-color">Our Motto</h1> </div>
+    <div className="w-full"><h1 className="text-xl md:text-2xl font-bold primary-color">Our Motto</h1> </div>
   </div>
   <div className="w-4/5 flex-auto pl-20 border-l-2">
     <div className="w-full">
@@ -38,7 +38,7 @@ We are known for taking risks whilst creating an encouraging environment for pro
 </div>
 <div className="flex flex-wrap px-20">
   <div className="w-1/5 flex-auto">
-    <div className="text-xl md:text-4xl font-bold primary-color">Activites </div>
+    <div className="text-xl md:text-2xl font-bold primary-color">Activites </div>
   </div>
   <div className="w-4/5 flex-auto  pt-2">
     <div className="w-full border-t-[3px]">

@@ -2,6 +2,7 @@ import styles from "@/styles/home.module.scss";
 import Image from "next/image";
 import React from "react";
 import "swiper/css";
+import Link from "next/link";
 
 const AboutUs = () => {
   return (
@@ -64,7 +65,7 @@ const AboutUs = () => {
           <div className="w-full"> </div>
         </div>
         <div className="md:w-[30%] flex-auto pr-4">
-          <div className="w-full">
+          <div className="w-full transition duration-300 ease-in-out hover:scale-110">
             <h1 className="mb-3 text-base font-semibold md:text-2xl">
               Sathish Chandra
             </h1>
@@ -94,21 +95,21 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <div className="w-full pt-20 pb-20">
-        <Image
+      <div className="w-full scale-110 pt-20 pb-20 overflow-hidden">
+       <div className="transition duration-300 ease-in-out hover:scale-110"><Image
           src="/images/GTP_About-Us_2.jpg"
           height={500}
           width={1230}
           className="w-full scale-110"
           alt="..."
-        />
+        /></div> 
       </div>
       <div className="flex flex-wrap px-4 pt-4 md:px-20">
         <div className="flex-auto hidden w-1/5 md:block">
           <div className="w-full"> </div>
         </div>
         <div className="w-[30%] flex-auto pr-4">
-          <div className="w-full">
+          <div className="w-full transition duration-300 ease-in-out hover:scale-110">
             <h1 className="mb-3 text-2xl font-semibold">Chetan Chandra</h1>
             <Image
               src="/images/Chetan-Chandra.jpg"
@@ -141,7 +142,7 @@ const AboutUs = () => {
           <div className="w-full"> </div>
         </div>
         <div className="md:w-[30%] flex-auto pr-4">
-          <div className="w-full">
+          <div className="w-full transition duration-300 ease-in-out hover:scale-110">
             <h1 className="mb-3 text-2xl font-semibold">Bindu Chandra</h1>
             <Image
               src="/images/Bindu-Chandra.jpg"

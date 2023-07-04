@@ -2,6 +2,7 @@ import styles from "@/styles/home.module.scss";
 import Image from "next/image";
 import React from "react";
 import "swiper/css";
+import Link from "next/link";
 
 const Leadership = () => {
   return (
