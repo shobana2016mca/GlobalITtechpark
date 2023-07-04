@@ -2,7 +2,7 @@ import styles from "@/styles/home.module.scss";
 import Image from "next/image";
 import React from "react";
 import "swiper/css";
-
+import Link from "next/link";
 const AboutUs = () => {
   return (
     <React.Fragment>
@@ -126,7 +126,7 @@ const AboutUs = () => {
                 alt="..." className="transition duration-150 ease-in-out hover:scale-110 hover:rotate-3"
               />
             </div>
-            <p className="pt-4 text-left"><a href="/Bosch-bangalore">BOSCH Bengaluru</a></p>
+            <p className="pt-4 text-left"><Link href="/Bosch-bangalore">BOSCH Bengaluru</Link></p>
           </div>
         </div>
         <div className="flex-auto px-4 md:w-1/4">
@@ -139,7 +139,7 @@ const AboutUs = () => {
                 alt="..." className="transition duration-150 ease-in-out hover:scale-110 hover:rotate-3"
               />
             </div>
-            <p className="pt-4 text-left"><a href="/Bosch-bangalore">BOSCH Bengaluru</a></p>
+            <p className="pt-4 text-left"><Link href="/Bosch-bangalore">BOSCH Bengaluru</Link></p>
           </div>
         </div>
         <div className="flex-auto px-4 md:w-1/4">
@@ -152,7 +152,7 @@ const AboutUs = () => {
                 alt="..." className="transition duration-150 ease-in-out hover:scale-110 hover:rotate-3"
               />
             </div>
-            <p className="pt-4 text-left"><a href="/Bosch-bangalore">BOSCH Bengaluru</a></p>
+            <p className="pt-4 text-left"><Link href="/Bosch-bangalore">BOSCH Bengaluru</Link></p>
           </div>
         </div>
         
