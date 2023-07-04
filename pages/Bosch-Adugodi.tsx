@@ -2,7 +2,7 @@ import styles from "@/styles/home.module.scss";
 import Image from "next/image";
 import React from "react";
 import "swiper/css";
-
+import Link from "next/link";
 
 const AboutUs = () => {
   return (
@@ -10,8 +10,8 @@ const AboutUs = () => {
       <div className={`${styles["about-container"]} p-4 md:p-20`}>
         <div className={styles["content"]}>
           <h2 className="text-5xl font-semibold">Bosch Adugodi</h2>
-          
-          <p className="text-3xl font-semibold pt-6">
+
+          <p className="text-3xl font-semibold pt-4">
             {" "}
             Bangalore | 1.2 Million Square-Foot | TCS
           </p>
@@ -120,40 +120,40 @@ const AboutUs = () => {
         <div className="flex-auto px-4 md:w-1/4">
           <div className="w-full">
             <div className="overflow-hidden">
-            <a href="/Bosch-bangalore">  <Image
+            <Link href="/Bosch-bangalore">  <Image
                 height={200}
                 width={300}
                 src="/images/GTP_Project_6.jpg"
                 alt="..." className="transition duration-150 ease-in-out hover:scale-110 hover:rotate-3"
-              /></a>
+              /></Link>
             </div>
-            <p className="pt-4 text-left"><a href="/Bosch-bangalore">BOSCH Bengaluru</a></p>
+            <p className="pt-4 text-left"><Link href="/Bosch-bangalore">BOSCH Bengaluru</Link></p>
           </div>
         </div>
         <div className="flex-auto px-4 md:w-1/4">
           <div className="w-full">
             <div className="overflow-hidden">
-            <a href="/Bosch-bangalore">  <Image
+            <Link href="/Bosch-bangalore">  <Image
                 height={200}
                 width={300}
                 src="/images/GTP_Project_7.jpg"
                 alt="..." className="transition duration-150 ease-in-out hover:scale-110 hover:rotate-3"
-              /></a>
+              /></Link>
             </div>
-            <p className="pt-4 text-left"><a href="/Bosch-bangalore">BOSCH Bengaluru</a></p>
+            <p className="pt-4 text-left"><Link href="/Bosch-bangalore">BOSCH Bengaluru</Link></p>
           </div>
         </div>
         <div className="flex-auto px-4 md:w-1/4">
           <div className="w-full">
             <div className="overflow-hidden">
-            <a href="/Bosch-bangalore">    <Image
+            <Link href="/Bosch-bangalore">    <Image
                 height={200}
                 width={300}
                 src="/images/GTP_Project_8.jpg"
                 alt="..." className="transition duration-150 ease-in-out hover:scale-110 hover:rotate-3"
-              /></a>
+              /></Link>
             </div>
-            <p className="pt-4 text-left"><a href="/Bosch-bangalore">BOSCH Bengaluru</a></p>
+            <p className="pt-4 text-left"><Link href="/Bosch-bangalore">BOSCH Bengaluru</Link></p>
           </div>
         </div>
         
