@@ -122,7 +122,7 @@ const AboutUs = () => {
               src="/images/GTP_Project_6.jpg"
               alt="..."
             />
-            <p className="pt-4 text-left">BOSCH Bengaluru</p>
+            <p className="pt-4 text-left">BOSCH Coimbatore</p>
           </div>
         </div>
         <div className="flex-auto px-4 md:w-1/4">
@@ -133,7 +133,7 @@ const AboutUs = () => {
               src="/images/GTP_Project_7.jpg"
               alt="..."
             />
-            <p className="pt-4 text-left">BOSCH Bengaluru</p>
+            <p className="pt-4 text-left">BOSCH Coimbatore</p>
           </div>
         </div>
         <div className="flex-auto px-4 md:w-1/4">
@@ -144,7 +144,7 @@ const AboutUs = () => {
               src="/images/GTP_Project_8.jpg"
               alt="..."
             />
-            <p className="pt-4 text-left">BOSCH Bengaluru</p>
+            <p className="pt-4 text-left">BOSCH Coimbatore</p>
           </div>
         </div>
       </div>

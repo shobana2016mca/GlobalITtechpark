@@ -40,7 +40,7 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
             We build <br />
             tomorrow’s spaces for work & living.
           </span>
-          <span className="text-[#a7a4a4] text-[10px] lg:text-[18px] md:text-lg md:text-bold space-x-2 hover:text-[#00bcd4]">
+          <span className="text-[#a7a4a4] text-[10px] lg:text-[18px] md:text-lg md:text-bold space-x-2">
             {/* TODO: Here change the links to where you want it to go, i have just given /project and /contact-us just to make sure its working */}
             <Link
               href={"/commercial"}
@@ -108,8 +108,8 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
               <p className="pt-4 text-sm text-white">
                 <a href="/commercial">COMMERCIAL SPACE</a>
               </p>
-              <p className="text-sm">GTP Shantinagar</p>
-              <p className="pt-4 text-sm text-white">RESIDENTIAL</p>
+              <p className="text-sm"><a href="/GTP-Shantinagar">GTP Shantinagar</a></p>
+              <p className="pt-4 text-sm text-white"><a href="/Residential">RESIDENTIAL</a></p>
               <p className="text-sm">
                 <a href="/Global-Heights">Global Heights</a>
               </p>
