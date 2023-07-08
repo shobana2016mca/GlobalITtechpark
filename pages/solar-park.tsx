@@ -43,7 +43,7 @@ const AboutUs = () => {
           <div className="w-full">
             <p className="text-[16px]  opacity-70">
               Since 1995, GTP has been building some of the most re-cognized
-              buildings in South India. Our signature DOME, has been copied by
+              buildings in South India. Our signatur DOME, has been copied by
               many - which we think is the best compliment - over the last 2
               decades.
             </p>
