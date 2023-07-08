@@ -140,20 +140,20 @@ const AboutUs = () => {
                 alt="..." className="transition duration-150 ease-in-out hover:scale-110 hover:rotate-3"
               />
             </div>
-            <p className="pt-4 text-left"><link href="/Bosch-bangalore">BOSCH Bengaluru</link></p>
+            <p className="pt-4 text-left"><Link href="/Bosch-bangalore">BOSCH Bengaluru</Link></p>
           </div>
         </div>
         <div className="flex-auto px-4 md:w-1/4">
           <div className="w-full">
             <div className="overflow-hidden">
-            <link href="/Bosch-bangalore">         <Image
+            <Link href="/Bosch-bangalore">         <Image
                 height={200}
                 width={300}
                 src="/images/GTP_Project_8.jpg"
                 alt="..." className="transition duration-150 ease-in-out hover:scale-110 hover:rotate-3"
-              /></link>
+              /></Link>
             </div>
-            <p className="pt-4 text-left"><link href="/Bosch-bangalore">BOSCH Bengaluru</link></p>
+            <p className="pt-4 text-left"><Link href="/Bosch-bangalore">BOSCH Bengaluru</Link></p>
           </div>
         </div>
         
